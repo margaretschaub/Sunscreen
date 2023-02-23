@@ -26,7 +26,7 @@ for item in links:
     ingredient_list = ingredients_text.split('\n')
     almost_item_name = soup.find('title',class_="site-title").text
     item_name_spaces = almost_item_name.replace("\n",'').strip()
-    item_name = re.sub(' +','',item_name_spaces)
+    item_name = re.sub('  +','',item_name_spaces)
     try:
         ingredient_list_combined = [item, item_name, ingredient_list[0], ingredient_list[2]]
     except IndexError:
