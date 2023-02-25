@@ -3,6 +3,10 @@ import requests
 import json
 import pandas as pd
 
+from scrapers.get_all_links import create_list_of_links
+
+list_of_links = create_list_of_links('https://shop.foodland.com/sm/pickup/rsid/50/results?q=sunscreen&page=1&skip=0')
+
 
 def get_info(product_key):
     product_specific_dict = product_card_dict[product_key]
@@ -40,18 +44,9 @@ def get_info(product_key):
 
 
 array = []
-links = []
-webpage_count = 2
-num = 1
-skip = 0
-for x in range(webpage_count):
-    url_form = f"https://shop.foodland.com/sm/pickup/rsid/11/results?q=sunscreen&page={num}&skip={skip}"
-    # Need to make variable
-    links.append(url_form)
-    num += 1
-    skip += 30
 
-for url in links:
+
+for url in list_of_links:
     r = requests.get(url)
     soup = bs(r.content, "lxml")
 
