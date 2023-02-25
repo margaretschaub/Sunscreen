@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup as bs
 import requests
-import re
 import pandas as pd
 
 
@@ -9,11 +8,12 @@ def generate_links_list(url):
     r = requests.get(url)
     soup = bs(r.content, "lxml")
 
-    new_links = soup.find_all('h3', class_="cl-element cl-element-title cl-element--instance-1001")
+    new_links = soup.find_all("div", class_="relative product_image")
     for each in new_links:
-        c = str(each)
-        d = c.split('"')
-        links.append(d[5])
+        a = each.contents[1]
+        b = a.get('href')
+        complete_url = url + b
+        links.append(complete_url)
 
     return links
 
@@ -24,12 +24,14 @@ def scrape_ingredients(links_list):
     for item in links_list:
         r = requests.get(item)
         soup = bs(r.content, "lxml")
-        almost_ingredients = soup.find_all('div', id="ingredients")
-        ingredients_text = almost_ingredients[0].text
-        ingredients_spaces = ingredients_text.replace('\n', '').strip()
-        ingredients = re.sub('  +', '', ingredients_spaces)
+        try:
+            almost_ingredients = soup.find('div', class_='sixteen columns rte').text
 
-        item_name = soup.find('h2', class_="product-subtitle").text
+        except AttributeError:
+            almost_ingredients = soup.find('div', class_='product-block product-block--description').text
+
+        ingredients = almost_ingredients.replace('\n', ' ').strip()
+        item_name = soup.title.text.strip()
 
         ingredients_list = [item, item_name, ingredients]
         array.append(ingredients_list)
@@ -46,4 +48,4 @@ def main(initial_url, output_csv_name):
 
 
 if __name__ == "__main__":
-    main('https://www.albabotanica.com/?sfid=4326&_sf_s=sunscreen', r'/Users/margaretschaub/Desktop/alba_botanical.csv')
+    main('https://littlehandshawaii.com', r'/Users/margaretschaub/Desktop/lhh.csv')
