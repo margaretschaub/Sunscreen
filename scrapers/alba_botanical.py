@@ -29,7 +29,8 @@ def scrape_ingredients(links_list):
         ingredients_spaces = ingredients_text.replace('\n', '').strip()
         ingredients = re.sub('  +', '', ingredients_spaces)
 
-        item_name = soup.find('h2', class_="product-subtitle").text
+        almost_item_name = soup.find('h2', class_="product-subtitle").text
+        item_name = f" Alba {almost_item_name}"
 
         ingredients_list = [item, item_name, ingredients]
         array.append(ingredients_list)
