@@ -51,27 +51,19 @@ for url in list_of_links:
     soup = bs(r.content, "lxml")
 
     dictionary_raw = soup.find_all('script')
-    located = dictionary_raw[2].text
+    located = dictionary_raw[1].text
     dictionary_sliced = located[27:]
 
     sunscreen_dict = json.loads(dictionary_sliced)
     product_card_dict = sunscreen_dict['search']['productCardDictionary']
     product_keys_list = [i for i in product_card_dict.keys()]
     store_dict = sunscreen_dict['stores']['activeStoreDetails']
-    name = store_dict['name']
-    address_line1 = store_dict['addressLine1'].strip()
-    address_line2 = store_dict['addressLine2']
-    state = store_dict['countyProvinceState']
-    post_code = store_dict['postCode']
-    city = store_dict['city']
-    longitude = store_dict['location']['longitude']
-    latitude = store_dict['location']['latitude']
-    store_id = [name, address_line1, address_line2, state, post_code, city, longitude, latitude]
+    retailer_store_id = store_dict['retailerStoreId']
+
 
     for item in product_keys_list:
         product_list = get_info(item)
-        for each in store_id:
-            product_list.append(each)
+        product_list.append(retailer_store_id)
 
         array.append(product_list)
 
@@ -79,6 +71,6 @@ for url in list_of_links:
 df = pd.DataFrame(array, columns=['Brand', 'sku', 'Available', 'Name', 'Price', 'Unit of Size',
                                   'Size', 'Price', 'Previous Price', 'Discounted', 'Markdown Price',
                                   'Markdown Label', 'Effective From', 'Effective Until', 'Whole Price',
-                                  'Store', 'Island', 'Address', 'State', 'Zip', 'City', 'Longitude', 'Latitude'])
+                                  'Store_ID'])
 
-df.to_csv(r'/Users/margaretschaub/Desktop/foodlandsunscreen.csv')
+df.to_csv(r'/Users/margaretschaub/Desktop/foodland_sunscreen2.csv')
