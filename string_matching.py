@@ -1,21 +1,21 @@
 from fuzzywuzzy import fuzz, process
 import pandas as pd
 
-foodland = pd.read_csv(r'/Users/margaretschaub/Desktop/foodlandsunscreen.csv')
-sunbum = pd.read_csv(r'/Users/margaretschaub/Desktop/sunbum2.csv')
+foodland = pd.read_csv(r'/Users/margaretschaub/Desktop/foodland_needs_match.csv')
+product = pd.read_csv(r'/Users/margaretschaub/Desktop/master_products.csv')
 
-product_name_foodland =foodland['Name'].tolist()
-product_name_sunbum = sunbum['Item Name'].tolist()
+foodland_name = foodland['foodland_name'].tolist()
+product_name = product['item_name'].tolist()
 
 mat1 = []
 mat2 = []
 p = []
-threshold = 80
+threshold = 100
 
 ##process.extractOne returns only one output which contains the string with the highest matching score
-for i in product_name_foodland:
+for i in foodland_name:
     mat1.append(process.extractOne(
-        i, product_name_sunbum, scorer=fuzz.token_set_ratio))
+        i, product_name, scorer=fuzz.token_set_ratio))
 
 foodland['matches'] = mat1
 

@@ -14,6 +14,10 @@ products = pd.read_csv(r'/Users/margaretschaub/Desktop/reef_safe_determination.c
 products = products.drop(columns=['Unnamed: 0'])
 products_df = products.astype(object).where(pd.notnull(products), None).tail(-1)
 
+product_match = pd.read_csv(r'/Users/margaretschaub/Desktop/foodlandsunscreen_matches.csv', delimiter=',')
+product_match_df = product_match.astype(object).where(pd.notnull(product_match), None)
+product_match_df = product_match_df.drop(columns=['Unnamed: 0'])
+
 # try:
 #     conn = msql.connect(host='localhost', user='root',
 #                         password='maceee23')  # give ur username, password
@@ -62,16 +66,33 @@ products_df = products.astype(object).where(pd.notnull(products), None).tail(-1)
 # except Error as e:
 #     print("Error while connecting to MySQL", e)
                         
+# try:
+#     conn = msql.connect(host='localhost', user='root',
+#                         password='maceee23')  # give ur username, password
+#     if conn.is_connected():
+#         cursor = conn.cursor()
+#         cursor.execute("USE sunscreen;")
+#         for i, row in products_df.iterrows():
+#             # here %S means string values
+#             sql = '''INSERT INTO sunscreen.products (url, item_name,
+#             ingredients, reef_safe_determination) VALUES (%s,%s,%s,%s)'''
+#             cursor.execute(sql, tuple(row))
+#             print("Record inserted")
+#             # the connection is not auto committed by default, so we must commit to save our changes
+#             conn.commit()
+# except Error as e:
+#     print("Error while connecting to MySQL", e)
+
 try:
     conn = msql.connect(host='localhost', user='root',
                         password='maceee23')  # give ur username, password
     if conn.is_connected():
         cursor = conn.cursor()
         cursor.execute("USE sunscreen;")
-        for i, row in products_df.iterrows():
+        for i, row in product_match_df.iterrows():
             # here %S means string values
-            sql = '''INSERT INTO sunscreen.products (url, item_name,
-            ingredients, reef_safe_determination) VALUES (%s,%s,%s,%s)'''
+            sql = '''INSERT IGNORE INTO sunscreen.product_matches (brand,foodland_name, product_name) 
+            VALUES (%s,%s,%s)'''
             cursor.execute(sql, tuple(row))
             print("Record inserted")
             # the connection is not auto committed by default, so we must commit to save our changes

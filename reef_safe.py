@@ -1,17 +1,22 @@
 import pandas as pd
 
-non_reef_safe_ingredients = ['oxybenzone', 'octinoxate', 'octocrylene', 'avobenzone', 'benzophenone',
-                           'octisalate', 'homosalate', 'ethylhexyl salicylate']
-reef_safe_mineral_ingredients = ['titanium dioxide','zinc oxide']
-reef_safe_ingredients = ['non-nano zinc oxide']
+banned_ingredients = ['oxybenzone', 'octinoxate']
+
+non_reef_safe_ingredients = ['octocrylene', 'avobenzone', 'benzophenone', 'octisalate',
+                             'homosalate', 'ethylhexyl salicylate']
+
+reef_safe_mineral_ingredients = ['titanium dioxide', 'zinc oxide']
+
+reef_safe_ingredients = ['non-nano zinc oxide', 'non-nano zinc', '(Non-Nano) Zinc Oxide']
 
 
-def reef_safe_test(csv_path):
+def reef_safe_test(input_csv_path, output_csv_path):
     temp = []
-    csv_title = pd.read_csv(csv_path)
+    csv_title = pd.read_csv(input_csv_path)
 
-    for item in csv_title['Active Ingredients']:
+    for item in csv_title['Ingredients']:
         try:
+            banned = any(ele in item.lower() for ele in banned_ingredients)
             not_reef_safe = any(ele in item.lower() for ele in non_reef_safe_ingredients)
             mineral = any(ele in item.lower() for ele in reef_safe_mineral_ingredients)
             reef_safe = any(ele in item.lower() for ele in reef_safe_ingredients)
@@ -20,18 +25,22 @@ def reef_safe_test(csv_path):
             continue
 
         if not_reef_safe:
-            temp.append('0')
-        elif reef_safe:
             temp.append('1')
+        elif reef_safe:
+            temp.append('3')
         elif mineral:
             temp.append('2')
+        elif banned:
+            temp.append('0')
         else:
             temp.append('')
 
     csv_title['Reef Safe Determination'] = temp
-    csv_title.to_csv(r'/Users/margaretschaub/Desktop/reef_safe_determination.csv')
+
+    csv_title.to_csv(output_csv_path, index=False)
     print("CSV exported")
 
 
-reef_safe_test(r'/Users/margaretschaub/Desktop/lhh.csv')
-
+if __name__ == "__main__":
+    reef_safe_test(r'/Users/margaretschaub/Desktop/sunscreen_merged.csv',
+                   r'/Users/margaretschaub/Desktop/reef_safe_determination.csv')
