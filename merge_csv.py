@@ -14,7 +14,7 @@ def merge_csv_files(file_path, output_file_location):
 
     li = []
     for file in absolute_path_list:
-        df_temp = pd.read_csv(file, encoding="utf-8", index_col=None, header=0)
+        df_temp = pd.read_csv(file, index_col=None, encoding="utf-8", header=0)
         li.append(df_temp)
         df_append = pd.concat(li, axis=0, ignore_index=True)
         df_append = df_append.drop(columns=['Unnamed: 0'])
