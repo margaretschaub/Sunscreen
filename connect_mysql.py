@@ -3,99 +3,79 @@ import mysql.connector as msql
 from mysql.connector import Error
 
 
-empdata = pd.read_csv(r'/Users/margaretschaub/Desktop/foodland_sunscreen2.csv', delimiter=',')
-empdata = empdata.drop(columns=['Unnamed: 0'])
-# foodland_info = pd.read_csv(r'/Users/margaretschaub/Desktop/foodland_store_details.csv', delimiter=',')
-# foodland_info = foodland_info.drop(columns=['Unnamed: 0'])
-#
-df = empdata.astype(object).where(pd.notnull(empdata), None)
-#
-# products = pd.read_csv(r'/Users/margaretschaub/Desktop/reef_safe_determination.csv', delimiter=',')
-# products = products.drop(columns=['Unnamed: 0'])
-# products_df = products.astype(object).where(pd.notnull(products), None).tail(-1)
-#
-# product_match = pd.read_csv(r'/Users/margaretschaub/Desktop/foodlandsunscreen_matches.csv', delimiter=',')
-# product_match_df = product_match.astype(object).where(pd.notnull(product_match), None)
-# product_match_df = product_match_df.drop(columns=['Unnamed: 0'])
+def sql_commit(dataframe, sql_statement):
+    try:
+        conn = msql.connect(host='localhost', user='root',
+                            password='')
+        if conn.is_connected():
+            cursor = conn.cursor()
+            cursor.execute("USE sunscreen;")
+            for i, row in dataframe.iterrows():
+                sql = sql_statement
+                cursor.execute(sql, tuple(row))
+                print("Record inserted")
+                conn.commit()
+    except Error as e:
+        print("Error while connecting to MySQL", e)
 
-# try:
-#     conn = msql.connect(host='localhost', user='root',
-#                         password='maceee23')  # give ur username, password
-#     if conn.is_connected():
-#         cursor = conn.cursor()
-#         cursor.execute("USE sunscreen;")
-#         for i, row in foodland_info.iterrows():
-#             # here %S means string values
-#             sql = '''INSERT INTO retailer_stores (retailer_store_id, store_name,
-#             address_line1,address_line2, state, post_code, city, coordinate)
-#             VALUES(%s, %s, %s, %s, %s ,%s, %s, %s);'''
-#             cursor.execute(sql, tuple(row))
-#             print("Record inserted")
-#             # the connection is not auto committed by default, so we must commit to save our changes
-#             conn.commit()
-# except Error as e:
-#     print("Error while connecting to MySQL", e)
 
-try:
-    conn = msql.connect(host='localhost', user='root',
-                        password='maceee23')  # give ur username, password
-    if conn.is_connected():
-        cursor = conn.cursor()
-        cursor.execute("USE sunscreen;")
-        for i, row in df.iterrows():
-            # here %S means string values
-            sql = '''INSERT INTO sunscreen.foodland_inventory (brand, sku,
-                        available,
-                        product_name,
-                        price,
-                        unit_of_size,
-                        size,
-                        price_per_size,
-                        previous_price,
-                        discounted,
-                        markdown_price,
-                        markdown_label,
-                        effective_from,
-                        effective_until,
-                        whole_price,
-                        retailer_store_id) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)'''
-            cursor.execute(sql, tuple(row))
-            print("Record inserted")
-            # the connection is not auto committed by default, so we must commit to save our changes
-            conn.commit()
-except Error as e:
-    print("Error while connecting to MySQL", e)
-                        
-# try:
-#     conn = msql.connect(host='localhost', user='root',
-#                         password='maceee23')  # give ur username, password
-#     if conn.is_connected():
-#         cursor = conn.cursor()
-#         cursor.execute("USE sunscreen;")
-#         for i, row in products_df.iterrows():
-#             # here %S means string values
-#             sql = '''INSERT INTO sunscreen.products (url, item_name,
-#             ingredients, reef_safe_determination) VALUES (%s,%s,%s,%s)'''
-#             cursor.execute(sql, tuple(row))
-#             print("Record inserted")
-#             # the connection is not auto committed by default, so we must commit to save our changes
-#             conn.commit()
-# except Error as e:
-#     print("Error while connecting to MySQL", e)
+def clean_df(file_name):
+    df_object = pd.read_csv(file_name, delimiter=',')
+    df_object = df_object.drop(columns=['Unnamed: 0'])
+    return df_object
 
-# try:
-#     conn = msql.connect(host='localhost', user='root',
-#                         password='maceee23')  # give ur username, password
-#     if conn.is_connected():
-#         cursor = conn.cursor()
-#         cursor.execute("USE sunscreen;")
-#         for i, row in product_match_df.iterrows():
-#             # here %S means string values
-#             sql = '''INSERT IGNORE INTO sunscreen.product_matches (brand,foodland_name, product_name)
-#             VALUES (%s,%s,%s)'''
-#             cursor.execute(sql, tuple(row))
-#             print("Record inserted")
-#             # the connection is not auto committed by default, so we must commit to save our changes
-#             conn.commit()
-# except Error as e:
-#     print("Error while connecting to MySQL", e)
+
+def load_foodland_info():
+    sql = '''INSERT IGNORE INTO retailer_stores (retailer_store_id, store_name,
+    address_line1,address_line2, state, post_code, city, coordinate)
+    VALUES(%s, %s, %s, %s, %s ,%s, %s, %s);'''
+    foodland_info = clean_df(r'/Users/margaretschaub/Desktop/foodland_store_details.csv')
+    sql_commit(foodland_info, sql)
+
+
+def load_products():
+    sql = '''INSERT IGNORE INTO products (url, item_name,
+    ingredients, reef_safe_determination) VALUES (%s,%s,%s,%s)'''
+    products_df = clean_df(r'/Users/margaretschaub/Desktop/reef_safe_determination.csv')
+    products_df = products_df.astype(object).where(pd.notnull(products_df), None).tail(-1)
+    sql_commit(products_df, sql)
+
+
+def load_product_matches():
+    sql = '''INSERT IGNORE INTO product_matches (brand,foodland_name, product_name)
+    VALUES (%s,%s,%s)'''
+    product_match_df = clean_df(r'/Users/margaretschaub/Desktop/foodlandsunscreen_matches.csv')
+    product_match_df = product_match_df.astype(object).where(pd.notnull(product_match_df), None)
+    sql_commit(product_match_df, sql)
+
+
+def load_inventory():
+    sql = '''INSERT IGNORE INTO foodland_inventory (brand, sku,
+                available,
+                product_name,
+                price,
+                unit_of_size,
+                size,
+                price_per_size,
+                previous_price,
+                discounted,
+                markdown_price,
+                markdown_label,
+                effective_from,
+                effective_until,
+                whole_price,
+                retailer_store_id) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)'''
+    inventory_df = clean_df(r'/Users/margaretschaub/Desktop/foodland_sunscreen2.csv')
+    inventory_df = inventory_df.astype(object).where(pd.notnull(inventory_df), None)
+    sql_commit(inventory_df, sql)
+
+
+def main():
+    load_products()
+    load_foodland_info()
+    load_inventory()
+    load_product_matches()
+
+
+if __name__ == "__main__":
+    main()
