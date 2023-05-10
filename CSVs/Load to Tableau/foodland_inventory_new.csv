@@ -1,0 +1,664 @@
+id,brand,sku,available,product_name,match_id,price,unit_of_size,size,price_per_size,previous_price,discounted,markdown_price,markdown_label,effective_from,effective_until,whole_price,retailer_store_id
+1,"Sol Remedies",7191995160,1,"Sol Remedies Sunscreen Reef Safe",88,19.99,Ounce,4.00,$5.00/oz,$19.99,0,NULL,NULL,NULL,NULL,NULL,50
+2,"Sun Bum",871760001923,1,"Sun Bum Original SPF 15 Sunscreen Lotion",104,20.69,Ounce,8.00,$2.59/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,50
+3,"Sun Bum",871760001930,1,"Sun Bum Original SPF 30 Sunscreen Lotion",103,20.69,Ounce,8.00,$2.59/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,50
+4,"Sun Bum",871760001947,1,"Sun Bum Original SPF 50 Sunscreen Lotion",102,20.69,Ounce,8.00,$2.59/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,50
+5,"Ao Organics",274145810,1,"Ao Organics Reef Safe Sunscreen Lot",41,24.99,Ounce,4.00,$6.25/oz,$27.99,1,24.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",24.99,50
+6,"Sun Bum",871760001954,1,"Sun Bum Sunscreen Spray, SPF 15",101,20.69,Ounce,6.00,$3.45/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,50
+7,"Alba Botanica",724742008437,1,"Alba Botanica Hawaiian Sunscreen, Nourishing Coconut SPF 50",32,20.49,Ounce,6.00,$3.42/oz,$20.49,0,NULL,NULL,NULL,NULL,NULL,50
+8,"Alba Botanica",724742003906,1,"Alba Botanica Sunscreen Lotion, Sport Protection, SPF 45",33,14.99,Ounce,4.00,$3.75/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,50
+9,"Alba Botanica",724742008253,1,"Alba Botanica Hawaiian Sunscreen Soothing Aloe Vera Spf 30",34,15.29,Ounce,4.00,$3.82/oz,$15.29,0,NULL,NULL,NULL,NULL,NULL,50
+10,"Sun Bum",871760008137,1,"Sun Bum Mineral Spray SPF 50",100,17.99,Each,1.00,NULL,$19.99,1,17.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",17.99,50
+11,"Sun Bum",871760002975,1,"Sun Bum Face Lotion, SPF 50",99,17.19,Ounce,3.00,$5.73/oz,$18.99,1,17.19,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",17.19,50
+12,"Alba Botanica",724742004040,1,"Alba Mineral Sunscreen Spf35",35,20.99,Ounce,6.00,$3.50/oz,$20.99,0,NULL,NULL,NULL,NULL,NULL,1
+13,"Sun Bum",871760000322,1,"Sun Bum Original SPF 50 Sunscreen Lotion",102,12.59,Ounce,3.00,$4.20/oz,$13.99,1,12.59,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",12.59,1
+14,"Hawaiian Tropic",75486091828,1,"Hawaiian Tropic Sunscreen Mist, Antioxidant+, SPF 30",76,13.69,Ounce,3.40,$4.03/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,1
+15,"Sun Bum",871760001930,1,"Sun Bum Original SPF 30 Sunscreen Lotion",103,20.69,Ounce,8.00,$2.59/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,1
+16,"Sun Bum",871760002098,1,"Sun Bum Original SPF 70 Sunscreen Lotion",98,20.69,Ounce,8.00,$2.59/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,1
+17,"Little Hands Hawaii",680201860643,1,"Little Hands Hawaii Sunscreen Original",83,18.99,Ounce,1.00,$18.99/oz,$18.99,0,NULL,NULL,NULL,NULL,NULL,1
+18,"Little Hands Hawaii",680201860636,1,"Little Hands Hawaii Sunscreen Tinted",82,18.99,Ounce,4.00,$4.75/oz,$18.99,0,NULL,NULL,NULL,NULL,NULL,1
+19,"Little Hands Hawaii",852673999477,1,"Little Hands Hawaii Tinted Sunscreen",81,15.49,Ounce,4.00,$3.87/oz,$15.49,0,NULL,NULL,NULL,NULL,NULL,1
+20,"Maui Vera",856930004041,1,"Maui Vera Mineral Sunscreen Spf30",84,26.99,Ounce,6.50,$4.15/oz,$26.99,0,NULL,NULL,NULL,NULL,NULL,1
+21,"Maui Vera",856930004058,1,"Maui Vera Mineral Sunscreen Spf30",84,12.99,Ounce,3.00,$4.33/oz,$14.99,1,12.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",12.99,1
+22,"Hawaiian Tropic",75486089894,1,"Hawaiian Tropic Island Sport Sunscreen, SPF 30",74,13.99,Ounce,6.00,$2.33/oz,$13.99,0,NULL,NULL,NULL,NULL,NULL,1
+23,"Hawaiian Tropic",75486091859,1,"Hawaiian Tropic Silk Hydration Lotion Sunscreen, SPF 30",73,13.69,Ounce,6.00,$2.28/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,1
+24,Olay,75609000942,1,"Olay Moisturizer, All Day, With Sunscreen, Normal",85,16.99,Ounce,4.00,$4.25/oz,$16.99,0,NULL,NULL,NULL,NULL,NULL,1
+25,Neutrogena,86800110804,1,"Neutrogena Sheer Zinc Dry-Touch Sunscreen Broad Spectrum SPF 50",1,19.99,Each,1.00,NULL,$19.99,0,NULL,NULL,NULL,NULL,NULL,1
+26,"Hawaiian Tropic",75486087463,1,"Hawaiian Tropic Sheer Touch Ultra Radiance Lotion Sunscreen SPF 15",58,11.99,Ounce,8.00,$1.50/oz,$13.69,1,11.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",11.99,1
+27,"Alba Botanica",724742003814,1,"Alba Botanica Sunscreen Sensitive Spray, SPF 50",40,19.99,Ounce,6.00,$3.33/oz,$19.99,0,NULL,NULL,NULL,NULL,NULL,1
+28,"Banana Boat",79656031867,1,"Banana Boat Sport Performance Sunscreen, SPF 50",2,13.19,Ounce,8.00,$1.65/oz,$14.69,1,13.19,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.19,1
+29,"Banana Boat",79656031799,1,"Banana Boat Sport Sunscreen Spray, SPF 50+",3,13.19,Ounce,6.00,$2.20/oz,$14.69,1,13.19,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.19,1
+30,"Sun Bum",871760001978,1,"Sun Bum Moisturizing Sunscreen Spray, SPF 50",97,20.69,Ounce,6.00,$3.45/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,1
+31,"Hawaiian Tropic",75486132538,1,"Hawaiian Tropic Mineral Translucent Sunscreen Powder Brush SPF 30",57,21.49,Ounce,0.15,$143.27/oz,$23.99,1,21.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",21.49,1
+32,Neutrogena,86800110828,1,"Neutrogena Pure & Free Baby Sunscreen Lotion Broad Spectrum SPF 50",4,17.99,Ounce,3.00,$6.00/oz,$17.99,0,NULL,NULL,NULL,NULL,NULL,1
+33,"Alba Botanica",724742003906,1,"Alba Botanica Sunscreen Lotion, Sport Protection, SPF 45",33,14.99,Ounce,4.00,$3.75/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,1
+34,"Banana Boat",79656024326,1,"Banana Boat Baby 100% Mineral Sunscreen Lotion SPF50",5,15.49,Ounce,6.00,$2.58/oz,$15.49,0,NULL,NULL,NULL,NULL,NULL,1
+35,"Banana Boat",79656049718,1,"Banana Boat Sport Performance Sunscreen Lotion, SPF 30",49,11.49,Ounce,8.00,$1.44/oz,$12.99,1,11.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",11.49,1
+36,"Banana Boat",79656049725,1,"Banana Boat Sport Performance Sunscreen Lotion, SPF 50+",6,12.99,Ounce,8.00,$1.62/oz,$14.59,1,12.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",12.99,1
+37,"Banana Boat",79656031775,1,"Banana Boat Ultra Sport Performance SPF 15 Sunscreen",7,11.49,Ounce,6.00,$1.92/oz,$11.49,0,NULL,NULL,NULL,NULL,NULL,1
+38,"Banana Boat",79656004229,1,"Banana Boat Ultra Sport Performance SPF 30 Sunscreen",48,11.49,Ounce,10.00,$1.15/oz,$12.99,1,11.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",11.49,1
+39,"Banana Boat",79656031782,1,"Banana Boat Ultra Sport Performance Sunscreen, SPF 30",8,11.99,Ounce,6.00,$2.00/oz,$13.29,1,11.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",11.99,1
+40,"Hawaiian Tropic",75486087470,1,"Hawaiian Tropic Sheer Touch Sunscreen Lotion, SPF 30",59,11.99,Ounce,8.00,$1.50/oz,$13.69,1,11.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",11.99,1
+41,"Hawaiian Tropic",75486087609,1,"Hawaiian Tropic Sheer Touch Sunscreen Lotion, SPF 50",60,13.49,Ounce,8.00,$1.69/oz,$14.99,1,13.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.49,1
+42,"Banana Boat",79656044836,1,"Banana Boat Protective Dry Oil Sunscreen with Argan Oil, SPF 15",9,11.99,Ounce,6.00,$2.00/oz,$11.99,0,NULL,NULL,NULL,NULL,NULL,1
+43,"Alba Botanica",724742003821,1,"Alba Botanica Sunscreen Active Kids Clear Spray, SPF 50",39,19.99,Ounce,6.00,$3.33/oz,$19.99,0,NULL,NULL,NULL,NULL,NULL,1
+44,"Hawaiian Tropic",75486091125,1,"Hawaiian Tropic Silk Hydration Sunscreen Clear Spray, SPF 30",61,12.49,Ounce,6.00,$2.08/oz,$13.99,1,12.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",12.49,1
+45,"Hawaiian Tropic",75486091132,1,"Hawaiian Tropic Silk Hydration Sunscreen Face Lotion, SPF 30",62,13.69,Ounce,1.70,$8.05/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,1
+46,"Banana Boat",79656018066,1,"Banana Boat Kids Sport Sunscreen Spray, Broad Spectrum SPF 50+",10,12.49,Ounce,6.00,$2.08/oz,$12.49,0,NULL,NULL,NULL,NULL,NULL,1
+47,"Hawaiian Tropic",75486091170,1,"Hawaiian Tropic Everyday Active Lotion SPF 50",63,14.99,Ounce,8.00,$1.87/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,1
+48,"Hawaiian Tropic",75486089863,1,"Hawaiian Tropic Island Sport Lotion SPF 15",64,13.69,Ounce,8.00,$1.71/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,1
+49,"Hawaiian Tropic",75486089870,1,"Hawaiian Tropic Island Sport Lotion SPF 30",65,13.69,Ounce,8.00,$1.71/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,1
+50,"Hawaiian Tropic",75486091507,1,"Hawaiian Tropic Antioxidant Lotion SPF 30",66,13.69,Ounce,6.00,$2.28/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,1
+51,"Hawaiian Tropic",75486091514,1,"Hawaiian Tropic Antioxidant Lotion, SPF 50",67,14.99,Ounce,6.00,$2.50/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,1
+52,"Hawaiian Tropic",75486091149,1,"Hawaiian Tropic Everyday Active Clear Spray SPF 50",68,14.99,Ounce,6.00,$2.50/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,1
+53,"Hawaiian Tropic",75486107901,1,"Hawaiian Tropic Mineral Skin Nourishing Milk for Face SPF 30",78,17.99,Ounce,1.70,$10.58/oz,$17.99,0,NULL,NULL,NULL,NULL,NULL,1
+54,"Hawaiian Tropic",75486112110,1,"Hawaiian Tropic Mineral Skin Nourishing Milk for Face SPF 30",78,17.99,Ounce,3.40,$5.29/oz,$17.99,0,NULL,NULL,NULL,NULL,NULL,1
+55,"Hawaiian Tropic",75486112141,1,"Hawaiian Tropic Mineral Skin Nourishing Milk SPF 50",69,19.49,Ounce,3.40,$5.73/oz,$21.49,1,19.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",19.49,1
+56,"Sun Bum",871760002975,1,"Sun Bum Face Lotion, SPF 50",99,17.19,Ounce,3.00,$5.73/oz,$18.99,1,17.19,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",17.19,1
+57,"Hawaiian Tropic",75486091866,1,"Hawaiian Tropic Silk Hydration Weightless Lotion SPF 50",70,14.99,Ounce,6.00,$2.50/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,1
+58,"Hawaiian Tropic",75486091927,1,"Hawaiian Tropic Silk Hydration Weightless Continuous Spray SPF 50",71,13.49,Ounce,6.00,$2.25/oz,$14.99,1,13.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.49,1
+59,"Hawaiian Tropic",75486105389,1,"Hawaiian Tropic Silk Hydration Weightless Oil Mist SPF 15",72,19.69,Ounce,5.00,$3.94/oz,$19.69,0,NULL,NULL,NULL,NULL,NULL,1
+60,"Banana Boat",79656024692,1,"Banana Boat Kids Sport Stick SPF 50",11,7.99,Ounce,0.50,$15.98/oz,$7.99,0,NULL,NULL,NULL,NULL,NULL,1
+61,"Banana Boat",79656016819,1,"Banana Boat Kid's Sport Lotion, SPF 50",12,13.19,Ounce,6.00,$2.20/oz,$14.69,1,13.19,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.19,1
+62,"Sol Remedies",7191995160,1,"Sol Remedies Sunscreen Reef Safe",88,19.99,Ounce,4.00,$5.00/oz,$19.99,0,NULL,NULL,NULL,NULL,NULL,11
+63,"Alba Botanica",724742004385,1,"Alba Sunscreen Sensitive Spf45",38,14.29,Ounce,3.00,$4.76/oz,$14.29,0,NULL,NULL,NULL,NULL,NULL,11
+64,"Sun Bum",871760000322,1,"Sun Bum Original SPF 50 Sunscreen Lotion",102,12.59,Ounce,3.00,$4.20/oz,$13.99,1,12.59,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",12.59,11
+65,"Sun Bum",871760001923,1,"Sun Bum Original SPF 15 Sunscreen Lotion",104,20.69,Ounce,8.00,$2.59/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,11
+66,"Sun Bum",871760001930,1,"Sun Bum Original SPF 30 Sunscreen Lotion",103,20.69,Ounce,8.00,$2.59/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,11
+67,"Sun Bum",871760001947,1,"Sun Bum Original SPF 50 Sunscreen Lotion",102,20.69,Ounce,8.00,$2.59/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,11
+68,"Sun Bum",871760002098,1,"Sun Bum Original SPF 70 Sunscreen Lotion",98,20.69,Ounce,8.00,$2.59/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,11
+69,"Ao Organics",602564894,1,"Ao Organics Liquid Sunscreen Tinted",43,27.99,Ounce,4.00,$7.00/oz,$27.99,0,NULL,NULL,NULL,NULL,NULL,11
+70,"Ao Organics",602592828,1,"Ao Organics Sunscreen Stick Med",42,15.99,Ounce,2.00,$8.00/oz,$17.99,1,15.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",15.99,11
+71,"Little Hands Hawaii",680201860643,1,"Little Hands Hawaii Sunscreen Original",83,18.99,Ounce,1.00,$18.99/oz,$18.99,0,NULL,NULL,NULL,NULL,NULL,11
+72,"Little Hands Hawaii",680201860636,1,"Little Hands Hawaii Sunscreen Tinted",82,18.99,Ounce,4.00,$4.75/oz,$18.99,0,NULL,NULL,NULL,NULL,NULL,11
+73,"Little Hands Hawaii",852673999477,1,"Little Hands Hawaii Tinted Sunscreen",81,15.49,Ounce,4.00,$3.87/oz,$15.49,0,NULL,NULL,NULL,NULL,NULL,11
+74,"Maui Vera",856930004041,1,"Maui Vera Mineral Sunscreen Spf30",84,24.49,Ounce,6.50,$3.77/oz,$26.99,1,24.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",24.49,11
+75,"Maui Vera",856930004058,1,"Maui Vera Mineral Sunscreen Spf30",84,12.99,Ounce,3.00,$4.33/oz,$14.99,1,12.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",12.99,11
+76,"Hawaiian Tropic",75486089894,1,"Hawaiian Tropic Island Sport Sunscreen, SPF 30",74,13.99,Ounce,6.00,$2.33/oz,$13.99,0,NULL,NULL,NULL,NULL,NULL,11
+77,"Ao Organics",274145810,1,"Ao Organics Reef Safe Sunscreen Lot",41,24.99,Ounce,4.00,$6.25/oz,$27.99,1,24.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",24.99,11
+78,"Sun Bum",871760001954,1,"Sun Bum Sunscreen Spray, SPF 15",101,20.69,Ounce,6.00,$3.45/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,11
+79,"Hawaiian Tropic",75486087463,1,"Hawaiian Tropic Sheer Touch Ultra Radiance Lotion Sunscreen SPF 15",58,11.99,Ounce,8.00,$1.50/oz,$13.69,1,11.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",11.99,11
+80,"Alba Botanica",724742003814,1,"Alba Botanica Sunscreen Sensitive Spray, SPF 50",40,19.99,Ounce,6.00,$3.33/oz,$19.99,0,NULL,NULL,NULL,NULL,NULL,11
+81,"Banana Boat",79656031867,1,"Banana Boat Sport Performance Sunscreen, SPF 50",2,13.19,Ounce,8.00,$1.65/oz,$14.69,1,13.19,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.19,11
+82,"Banana Boat",79656031799,1,"Banana Boat Sport Sunscreen Spray, SPF 50+",3,13.19,Ounce,6.00,$2.20/oz,$14.69,1,13.19,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.19,11
+83,"Sun Bum",871760001978,1,"Sun Bum Moisturizing Sunscreen Spray, SPF 50",97,20.69,Ounce,6.00,$3.45/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,11
+84,"Alba Botanica",724742008437,1,"Alba Botanica Hawaiian Sunscreen, Nourishing Coconut SPF 50",32,20.49,Ounce,6.00,$3.42/oz,$20.49,0,NULL,NULL,NULL,NULL,NULL,11
+85,"Alba Botanica",724742003906,1,"Alba Botanica Sunscreen Lotion, Sport Protection, SPF 45",33,14.99,Ounce,4.00,$3.75/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,11
+86,"Banana Boat",79656024326,1,"Banana Boat Baby 100% Mineral Sunscreen Lotion SPF50",5,13.99,Ounce,6.00,$2.33/oz,$15.49,1,13.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.99,11
+87,"Banana Boat",79656049718,1,"Banana Boat Sport Performance Sunscreen Lotion, SPF 30",49,11.49,Ounce,8.00,$1.44/oz,$12.99,1,11.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",11.49,11
+88,"Banana Boat",79656049725,1,"Banana Boat Sport Performance Sunscreen Lotion, SPF 50+",6,12.99,Ounce,8.00,$1.62/oz,$14.59,1,12.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",12.99,11
+89,"Banana Boat",79656004229,1,"Banana Boat Ultra Sport Performance SPF 30 Sunscreen",48,11.49,Ounce,10.00,$1.15/oz,$12.99,1,11.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",11.49,11
+90,"Banana Boat",79656031782,1,"Banana Boat Ultra Sport Performance Sunscreen, SPF 30",8,11.99,Ounce,6.00,$2.00/oz,$13.29,1,11.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",11.99,11
+91,"Hawaiian Tropic",75486087470,1,"Hawaiian Tropic Sheer Touch Sunscreen Lotion, SPF 30",59,11.99,Ounce,8.00,$1.50/oz,$13.69,1,11.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",11.99,11
+92,"Hawaiian Tropic",75486087609,1,"Hawaiian Tropic Sheer Touch Sunscreen Lotion, SPF 50",60,13.49,Ounce,8.00,$1.69/oz,$14.99,1,13.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.49,11
+93,"Sun Bum",871760000339,1,"Sun Bum Travel Size Moisturizing Sunscreen Lotion SPF70",95,12.59,Ounce,3.00,$4.20/oz,$13.99,1,12.59,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",12.59,11
+94,"Alba Botanica",724742008253,1,"Alba Botanica Hawaiian Sunscreen Soothing Aloe Vera Spf 30",34,15.29,Ounce,4.00,$3.82/oz,$15.29,0,NULL,NULL,NULL,NULL,NULL,11
+95,"Alba Botanica",724742008277,1,"Alba Botanica Hawaiian Sunscreen, Revitalizing Green Tea Spf 45",37,14.99,Ounce,4.00,$3.75/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,11
+96,"Alba Botanica",724742003821,1,"Alba Botanica Sunscreen Active Kids Clear Spray, SPF 50",39,19.99,Ounce,6.00,$3.33/oz,$19.99,0,NULL,NULL,NULL,NULL,NULL,11
+97,"Banana Boat",79656000252,1,"Banana Boat Sunscreen, Spray, Deep Tanning Oil, SPF 4",13,11.69,Ounce,8.00,$1.46/oz,$11.69,0,NULL,NULL,NULL,NULL,NULL,11
+98,"Hawaiian Tropic",75486091125,1,"Hawaiian Tropic Silk Hydration Sunscreen Clear Spray, SPF 30",61,12.49,Ounce,6.00,$2.08/oz,$13.99,1,12.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",12.49,11
+99,Coola,857724008245,1,"Coola Classic Body Organic Sunscreen Lotion SPF 50 - Fragrance Free",54,27.99,Ounce,5.00,$5.60/oz,$27.99,0,NULL,NULL,NULL,NULL,NULL,11
+100,Coola,857724008252,1,"Coola Classic Body Organic Sunscreen Lotion SPF 50 - Guava Mango",53,27.99,Ounce,5.00,$5.60/oz,$27.99,0,NULL,NULL,NULL,NULL,NULL,11
+101,Coola,857724008962,1,"Coola Classic Body Organic Sunscreen Spray SPF 30 - Tropical Coconut",14,24.99,Ounce,6.00,$4.17/oz,$24.99,0,NULL,NULL,NULL,NULL,NULL,11
+102,Coola,857724008986,1,"Coola Classic Body Organic Sunscreen Spray SPF 50 - Fragrance Free",15,24.99,Ounce,6.00,$4.17/oz,$24.99,0,NULL,NULL,NULL,NULL,NULL,11
+103,Coola,857724008979,1,"Coola Classic Body Organic Sunscreen Spray SPF 50 - Guava Mango",16,24.99,Ounce,6.00,$4.17/oz,$24.99,0,NULL,NULL,NULL,NULL,NULL,11
+104,"Hawaiian Tropic",75486091170,1,"Hawaiian Tropic Everyday Active Lotion SPF 50",63,14.99,Ounce,8.00,$1.87/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,11
+105,"Hawaiian Tropic",75486089870,1,"Hawaiian Tropic Island Sport Lotion SPF 30",65,13.69,Ounce,8.00,$1.71/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,11
+106,"Hawaiian Tropic",75486091149,1,"Hawaiian Tropic Everyday Active Clear Spray SPF 50",68,14.99,Ounce,6.00,$2.50/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,11
+107,"Sun Bum",871760008137,1,"Sun Bum Mineral Spray SPF 50",100,19.99,Each,1.00,NULL,$19.99,0,NULL,NULL,NULL,NULL,NULL,11
+108,"Sun Bum",840155600621,1,"Sun Bum Face Lotion SPF 70",94,18.99,Ounce,18.00,$1.06/oz,$18.99,0,NULL,NULL,NULL,NULL,NULL,11
+109,"Sun Bum",871760002975,1,"Sun Bum Face Lotion, SPF 50",99,17.19,Ounce,3.00,$5.73/oz,$18.99,1,17.19,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",17.19,11
+110,"Sun Bum",840155602113,1,"Sun Bum SPF 30 Oil Spray",93,24.99,Ounce,5.00,$5.00/oz,$24.99,0,NULL,NULL,NULL,NULL,NULL,11
+111,"Hawaiian Tropic",75486091927,1,"Hawaiian Tropic Silk Hydration Weightless Continuous Spray SPF 50",71,13.49,Ounce,6.00,$2.25/oz,$14.99,1,13.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.49,11
+112,"Sun Bum",871760007727,1,"Sun Bum Mineral Lotion Face SPF 30",90,24.99,Each,1.00,NULL,$24.99,0,NULL,NULL,NULL,NULL,NULL,11
+113,"Sun Bum",840155602090,1,"Sun Bum SPF 50 Lotion Roll-on",89,20.99,Ounce,3.00,$7.00/oz,$20.99,0,NULL,NULL,NULL,NULL,NULL,11
+114,"Sun Bum",840155602120,1,"Sun Bum Glow SPF 30 Lotion",96,22.99,Each,1.00,NULL,$22.99,0,NULL,NULL,NULL,NULL,NULL,11
+115,"Hawaiian Tropic",75486132309,1,"Hawaiian Tropic Lip Balm SPF30",80,3.50,Ounce,0.15,$23.33/oz,$3.99,1,3.50,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",3.50,11
+116,"Sol Remedies",7191995160,1,"Sol Remedies Sunscreen Reef Safe",88,19.99,Ounce,4.00,$5.00/oz,$19.99,0,NULL,NULL,NULL,NULL,NULL,3
+117,"Sun Bum",871760001947,1,"Sun Bum Original SPF 50 Sunscreen Lotion",102,20.69,Ounce,8.00,$2.59/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,3
+118,"Sun Bum",871760002098,1,"Sun Bum Original SPF 70 Sunscreen Lotion",98,20.69,Ounce,8.00,$2.59/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,3
+119,"Little Hands Hawaii",680201860643,1,"Little Hands Hawaii Sunscreen Original",83,16.99,Ounce,1.00,$16.99/oz,$18.99,1,16.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",16.99,3
+120,"Little Hands Hawaii",680201860636,1,"Little Hands Hawaii Sunscreen Tinted",82,16.99,Ounce,4.00,$4.25/oz,$18.99,1,16.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",16.99,3
+121,"Little Hands Hawaii",852673999477,1,"Little Hands Hawaii Tinted Sunscreen",81,13.49,Ounce,4.00,$3.37/oz,$15.49,1,13.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.49,3
+122,"Maui Vera",856930004058,1,"Maui Vera Mineral Sunscreen Spf30",84,14.99,Ounce,3.00,$5.00/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,3
+123,"Ao Organics",274145810,1,"Ao Organics Reef Safe Sunscreen Lot",41,27.99,Ounce,4.00,$7.00/oz,$27.99,0,NULL,NULL,NULL,NULL,NULL,3
+124,"Alba Botanica",724742003814,1,"Alba Botanica Sunscreen Sensitive Spray, SPF 50",40,19.99,Ounce,6.00,$3.33/oz,$19.99,0,NULL,NULL,NULL,NULL,NULL,3
+125,"Banana Boat",79656031867,1,"Banana Boat Sport Performance Sunscreen, SPF 50",2,11.99,Ounce,8.00,$1.50/oz,$11.99,0,NULL,NULL,NULL,NULL,NULL,3
+126,"Banana Boat",79656031799,1,"Banana Boat Sport Sunscreen Spray, SPF 50+",3,13.19,Ounce,6.00,$2.20/oz,$14.69,1,13.19,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.19,3
+127,"Sun Bum",871760001978,1,"Sun Bum Moisturizing Sunscreen Spray, SPF 50",97,20.69,Ounce,6.00,$3.45/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,3
+128,"Alba Botanica",724742008437,1,"Alba Botanica Hawaiian Sunscreen, Nourishing Coconut SPF 50",32,20.49,Ounce,6.00,$3.42/oz,$20.49,0,NULL,NULL,NULL,NULL,NULL,3
+129,"Banana Boat",79656049725,1,"Banana Boat Sport Performance Sunscreen Lotion, SPF 50+",6,12.99,Ounce,8.00,$1.62/oz,$14.59,1,12.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",12.99,3
+130,"Hawaiian Tropic",75486091149,1,"Hawaiian Tropic Everyday Active Clear Spray SPF 50",68,11.99,Ounce,6.00,$2.00/oz,$11.99,0,NULL,NULL,NULL,NULL,NULL,3
+131,"Sun Bum",871760002975,1,"Sun Bum Face Lotion, SPF 50",99,17.19,Ounce,3.00,$5.73/oz,$18.99,1,17.19,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",17.19,3
+132,"Sol Remedies",7191995160,1,"Sol Remedies Sunscreen Reef Safe",88,19.99,Ounce,4.00,$5.00/oz,$19.99,0,NULL,NULL,NULL,NULL,NULL,37
+133,"Sun Bum",871760000322,1,"Sun Bum Original SPF 50 Sunscreen Lotion",102,12.59,Ounce,3.00,$4.20/oz,$13.99,1,12.59,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",12.59,37
+134,"Sun Bum",871760001923,1,"Sun Bum Original SPF 15 Sunscreen Lotion",104,20.69,Ounce,8.00,$2.59/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,37
+135,"Sun Bum",871760001930,1,"Sun Bum Original SPF 30 Sunscreen Lotion",103,20.69,Ounce,8.00,$2.59/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,37
+136,"Sun Bum",871760001947,1,"Sun Bum Original SPF 50 Sunscreen Lotion",102,20.69,Ounce,8.00,$2.59/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,37
+137,"Sun Bum",871760002098,1,"Sun Bum Original SPF 70 Sunscreen Lotion",98,20.69,Ounce,8.00,$2.59/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,37
+138,"Ao Organics",602564894,1,"Ao Organics Liquid Sunscreen Tinted",43,27.99,Ounce,4.00,$7.00/oz,$27.99,0,NULL,NULL,NULL,NULL,NULL,37
+139,"Ao Organics",602592828,1,"Ao Organics Sunscreen Stick Med",42,17.99,Ounce,2.00,$9.00/oz,$17.99,0,NULL,NULL,NULL,NULL,NULL,37
+140,"Little Hands Hawaii",680201860643,1,"Little Hands Hawaii Sunscreen Original",83,16.99,Ounce,1.00,$16.99/oz,$18.99,1,16.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",16.99,37
+141,"Little Hands Hawaii",680201860636,1,"Little Hands Hawaii Sunscreen Tinted",82,16.99,Ounce,4.00,$4.25/oz,$18.99,1,16.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",16.99,37
+142,"Little Hands Hawaii",852673999477,1,"Little Hands Hawaii Tinted Sunscreen",81,13.49,Ounce,4.00,$3.37/oz,$15.49,1,13.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.49,37
+143,"Maui Vera",856930004041,1,"Maui Vera Mineral Sunscreen Spf30",84,26.99,Ounce,6.50,$4.15/oz,$26.99,0,NULL,NULL,NULL,NULL,NULL,37
+144,"Maui Vera",856930004058,1,"Maui Vera Mineral Sunscreen Spf30",84,14.99,Ounce,3.00,$5.00/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,37
+145,"Hawaiian Tropic",75486089894,1,"Hawaiian Tropic Island Sport Sunscreen, SPF 30",74,11.99,Ounce,6.00,$2.00/oz,$11.99,0,NULL,NULL,NULL,NULL,NULL,37
+146,"Ao Organics",274145810,1,"Ao Organics Reef Safe Sunscreen Lot",41,27.99,Ounce,4.00,$7.00/oz,$27.99,0,NULL,NULL,NULL,NULL,NULL,37
+147,"Sun Bum",871760001954,1,"Sun Bum Sunscreen Spray, SPF 15",101,20.69,Ounce,6.00,$3.45/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,37
+148,Neutrogena,86800110804,1,"Neutrogena Sheer Zinc Dry-Touch Sunscreen Broad Spectrum SPF 50",1,19.99,Each,1.00,NULL,$19.99,0,NULL,NULL,NULL,NULL,NULL,37
+149,"Hawaiian Tropic",75486087463,1,"Hawaiian Tropic Sheer Touch Ultra Radiance Lotion Sunscreen SPF 15",58,10.99,Ounce,8.00,$1.37/oz,$10.99,0,NULL,NULL,NULL,NULL,NULL,37
+150,"Banana Boat",79656031867,1,"Banana Boat Sport Performance Sunscreen, SPF 50",2,13.19,Ounce,8.00,$1.65/oz,$14.69,1,13.19,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.19,37
+151,"Banana Boat",79656031799,1,"Banana Boat Sport Sunscreen Spray, SPF 50+",3,13.19,Ounce,6.00,$2.20/oz,$14.69,1,13.19,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.19,37
+152,"Hawaiian Tropic",75486087425,1,"Hawaiian Tropic Sunscreen Tanning Lotion, Spf 4",79,11.99,Ounce,8.00,$1.50/oz,$11.99,0,NULL,NULL,NULL,NULL,NULL,37
+153,"Sun Bum",871760001978,1,"Sun Bum Moisturizing Sunscreen Spray, SPF 50",97,20.69,Ounce,6.00,$3.45/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,37
+154,Neutrogena,86800112945,1,"Neutrogena Neutrogena Sheer Zinc Kids Mineral Sunscreen Broad Spectrum SPF 50+",17,16.99,Ounce,3.00,$5.66/oz,$16.99,0,NULL,NULL,NULL,NULL,NULL,37
+155,Neutrogena,86800110828,1,"Neutrogena Pure & Free Baby Sunscreen Lotion Broad Spectrum SPF 50",4,19.99,Ounce,3.00,$6.66/oz,$19.99,0,NULL,NULL,NULL,NULL,NULL,37
+156,"Banana Boat",79656024326,1,"Banana Boat Baby 100% Mineral Sunscreen Lotion SPF50",5,15.49,Ounce,6.00,$2.58/oz,$15.49,0,NULL,NULL,NULL,NULL,NULL,37
+157,"Banana Boat",79656024340,1,"Banana Boat Sport Mineral Sunscreen Lotion, SPF 50",47,13.99,Ounce,6.00,$2.33/oz,$15.49,1,13.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.99,37
+158,"Banana Boat",79656049718,1,"Banana Boat Sport Performance Sunscreen Lotion, SPF 30",49,11.49,Ounce,8.00,$1.44/oz,$12.99,1,11.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",11.49,37
+159,"Banana Boat",79656049725,1,"Banana Boat Sport Performance Sunscreen Lotion, SPF 50+",6,12.99,Ounce,8.00,$1.62/oz,$14.59,1,12.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",12.99,37
+160,"Banana Boat",79656004229,1,"Banana Boat Ultra Sport Performance SPF 30 Sunscreen",48,11.99,Ounce,10.00,$1.20/oz,$11.99,0,NULL,NULL,NULL,NULL,NULL,37
+161,"Banana Boat",79656031782,1,"Banana Boat Ultra Sport Performance Sunscreen, SPF 30",8,11.99,Ounce,6.00,$2.00/oz,$13.29,1,11.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",11.99,37
+162,"Hawaiian Tropic",75486087470,1,"Hawaiian Tropic Sheer Touch Sunscreen Lotion, SPF 30",59,11.99,Ounce,8.00,$1.50/oz,$13.69,1,11.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",11.99,37
+163,"Hawaiian Tropic",75486087609,1,"Hawaiian Tropic Sheer Touch Sunscreen Lotion, SPF 50",60,13.49,Ounce,8.00,$1.69/oz,$14.99,1,13.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.49,37
+164,"Sun Bum",871760000339,1,"Sun Bum Travel Size Moisturizing Sunscreen Lotion SPF70",95,12.59,Ounce,3.00,$4.20/oz,$13.99,1,12.59,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",12.59,37
+165,"Banana Boat",79656044836,1,"Banana Boat Protective Dry Oil Sunscreen with Argan Oil, SPF 15",9,13.99,Ounce,6.00,$2.33/oz,$13.99,0,NULL,NULL,NULL,NULL,NULL,37
+166,"Hawaiian Tropic",75486091125,1,"Hawaiian Tropic Silk Hydration Sunscreen Clear Spray, SPF 30",61,12.49,Ounce,6.00,$2.08/oz,$13.99,1,12.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",12.49,37
+167,"Hawaiian Tropic",75486091132,1,"Hawaiian Tropic Silk Hydration Sunscreen Face Lotion, SPF 30",62,13.69,Ounce,1.70,$8.05/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,37
+168,Neutrogena,86800110811,1,"Neutrogena Sheer Zinc Face Dry-Touch Sunscreen Broad Spectrum SPF 50 For Sensitive Skin",18,18.49,Ounce,2.00,$9.25/oz,$18.49,0,NULL,NULL,NULL,NULL,NULL,37
+169,"Banana Boat",79656018066,1,"Banana Boat Kids Sport Sunscreen Spray, Broad Spectrum SPF 50+",10,13.99,Ounce,6.00,$2.33/oz,$13.99,0,NULL,NULL,NULL,NULL,NULL,37
+170,Coola,857724008245,1,"Coola Classic Body Organic Sunscreen Lotion SPF 50 - Fragrance Free",54,27.99,Ounce,5.00,$5.60/oz,$27.99,0,NULL,NULL,NULL,NULL,NULL,37
+171,Coola,857724008252,1,"Coola Classic Body Organic Sunscreen Lotion SPF 50 - Guava Mango",53,27.99,Ounce,5.00,$5.60/oz,$27.99,0,NULL,NULL,NULL,NULL,NULL,37
+172,Coola,857724008962,1,"Coola Classic Body Organic Sunscreen Spray SPF 30 - Tropical Coconut",14,24.99,Ounce,6.00,$4.17/oz,$24.99,0,NULL,NULL,NULL,NULL,NULL,37
+173,Coola,857724008986,1,"Coola Classic Body Organic Sunscreen Spray SPF 50 - Fragrance Free",15,24.99,Ounce,6.00,$4.17/oz,$24.99,0,NULL,NULL,NULL,NULL,NULL,37
+174,"Hawaiian Tropic",75486087418,1,"Hawaiian Tropic Sunscreen, Lotion, Sheer Touch, Broad Spectrum Spf 8",77,10.99,Ounce,8.00,$1.37/oz,$10.99,0,NULL,NULL,NULL,NULL,NULL,37
+175,"Hawaiian Tropic",75486091170,1,"Hawaiian Tropic Everyday Active Lotion SPF 50",63,14.99,Ounce,8.00,$1.87/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,37
+176,"Hawaiian Tropic",75486089870,1,"Hawaiian Tropic Island Sport Lotion SPF 30",65,13.69,Ounce,8.00,$1.71/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,37
+177,"Hawaiian Tropic",75486091149,1,"Hawaiian Tropic Everyday Active Clear Spray SPF 50",68,14.99,Ounce,6.00,$2.50/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,37
+178,"Sun Bum",871760008137,1,"Sun Bum Mineral Spray SPF 50",100,19.99,Each,1.00,NULL,$19.99,0,NULL,NULL,NULL,NULL,NULL,37
+179,"Sun Bum",871760002975,1,"Sun Bum Face Lotion, SPF 50",99,17.19,Ounce,3.00,$5.73/oz,$18.99,1,17.19,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",17.19,37
+180,"Hawaiian Tropic",75486091927,1,"Hawaiian Tropic Silk Hydration Weightless Continuous Spray SPF 50",71,13.49,Ounce,6.00,$2.25/oz,$14.99,1,13.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.49,37
+181,"Sun Bum",871760007727,1,"Sun Bum Mineral Lotion Face SPF 30",90,24.99,Each,1.00,NULL,$24.99,0,NULL,NULL,NULL,NULL,NULL,37
+182,"Sun Bum",871760008144,1,"Sun Bum Mineral Lotion SPF 30",91,20.99,Each,1.00,NULL,$20.99,0,NULL,NULL,NULL,NULL,NULL,37
+183,"Sun Bum",871760007666,1,"Sun Bum Baby Spray SPF 50",92,19.99,Ounce,1.00,$19.99/oz,$19.99,0,NULL,NULL,NULL,NULL,NULL,37
+184,"Banana Boat",79656024692,1,"Banana Boat Kids Sport Stick SPF 50",11,7.99,Ounce,0.50,$15.98/oz,$7.99,0,NULL,NULL,NULL,NULL,NULL,37
+185,"Banana Boat",79656016819,1,"Banana Boat Kid's Sport Lotion, SPF 50",12,13.19,Ounce,6.00,$2.20/oz,$14.69,1,13.19,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.19,37
+186,"Alba Botanica",724742004040,1,"Alba Mineral Sunscreen Spf35",35,19.99,Ounce,6.00,$3.33/oz,$19.99,0,NULL,NULL,NULL,NULL,NULL,9
+187,"Sun Bum",871760000322,1,"Sun Bum Original SPF 50 Sunscreen Lotion",102,12.59,Ounce,3.00,$4.20/oz,$13.99,1,12.59,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",12.59,9
+188,"Sun Bum",871760001923,1,"Sun Bum Original SPF 15 Sunscreen Lotion",104,22.99,Ounce,8.00,$2.87/oz,$22.99,0,NULL,NULL,NULL,NULL,NULL,9
+189,"Sun Bum",871760001930,1,"Sun Bum Original SPF 30 Sunscreen Lotion",103,20.69,Ounce,8.00,$2.59/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,9
+190,"Sun Bum",871760001947,1,"Sun Bum Original SPF 50 Sunscreen Lotion",102,20.69,Ounce,8.00,$2.59/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,9
+191,"Sun Bum",871760002098,1,"Sun Bum Original SPF 70 Sunscreen Lotion",98,20.69,Ounce,8.00,$2.59/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,9
+192,"Little Hands Hawaii",680201860643,1,"Little Hands Hawaii Sunscreen Original",83,18.99,Ounce,1.00,$18.99/oz,$18.99,0,NULL,NULL,NULL,NULL,NULL,9
+193,"Little Hands Hawaii",680201860636,1,"Little Hands Hawaii Sunscreen Tinted",82,18.99,Ounce,4.00,$4.75/oz,$18.99,0,NULL,NULL,NULL,NULL,NULL,9
+194,"Little Hands Hawaii",852673999477,1,"Little Hands Hawaii Tinted Sunscreen",81,15.49,Ounce,4.00,$3.87/oz,$15.49,0,NULL,NULL,NULL,NULL,NULL,9
+195,"Hawaiian Tropic",75486089894,1,"Hawaiian Tropic Island Sport Sunscreen, SPF 30",74,13.99,Ounce,6.00,$2.33/oz,$13.99,0,NULL,NULL,NULL,NULL,NULL,9
+196,"Sun Bum",871760001954,1,"Sun Bum Sunscreen Spray, SPF 15",101,22.99,Ounce,6.00,$3.83/oz,$22.99,0,NULL,NULL,NULL,NULL,NULL,9
+197,Neutrogena,86800110804,1,"Neutrogena Sheer Zinc Dry-Touch Sunscreen Broad Spectrum SPF 50",1,19.99,Each,1.00,NULL,$19.99,0,NULL,NULL,NULL,NULL,NULL,9
+198,"Hawaiian Tropic",75486087463,1,"Hawaiian Tropic Sheer Touch Ultra Radiance Lotion Sunscreen SPF 15",58,11.99,Ounce,8.00,$1.50/oz,$13.69,1,11.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",11.99,9
+199,"Alba Botanica",724742003814,1,"Alba Botanica Sunscreen Sensitive Spray, SPF 50",40,19.99,Ounce,6.00,$3.33/oz,$19.99,0,NULL,NULL,NULL,NULL,NULL,9
+200,"Banana Boat",79656031867,1,"Banana Boat Sport Performance Sunscreen, SPF 50",2,13.19,Ounce,8.00,$1.65/oz,$14.69,1,13.19,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.19,9
+201,"Banana Boat",79656031799,1,"Banana Boat Sport Sunscreen Spray, SPF 50+",3,13.19,Ounce,6.00,$2.20/oz,$14.69,1,13.19,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.19,9
+202,"Sun Bum",871760001978,1,"Sun Bum Moisturizing Sunscreen Spray, SPF 50",97,22.99,Ounce,6.00,$3.83/oz,$22.99,0,NULL,NULL,NULL,NULL,NULL,9
+203,Neutrogena,86800110828,1,"Neutrogena Pure & Free Baby Sunscreen Lotion Broad Spectrum SPF 50",4,19.99,Ounce,3.00,$6.66/oz,$19.99,0,NULL,NULL,NULL,NULL,NULL,9
+204,"Alba Botanica",724742008437,1,"Alba Botanica Hawaiian Sunscreen, Nourishing Coconut SPF 50",32,20.49,Ounce,6.00,$3.42/oz,$20.49,0,NULL,NULL,NULL,NULL,NULL,9
+205,"Banana Boat",79656024326,1,"Banana Boat Baby 100% Mineral Sunscreen Lotion SPF50",5,13.99,Ounce,6.00,$2.33/oz,$15.49,1,13.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.99,9
+206,"Banana Boat",79656024340,1,"Banana Boat Sport Mineral Sunscreen Lotion, SPF 50",47,12.79,Ounce,6.00,$2.13/oz,$12.79,0,NULL,NULL,NULL,NULL,NULL,9
+207,"Banana Boat",79656049718,1,"Banana Boat Sport Performance Sunscreen Lotion, SPF 30",49,11.49,Ounce,8.00,$1.44/oz,$12.99,1,11.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",11.49,9
+208,"Banana Boat",79656049725,1,"Banana Boat Sport Performance Sunscreen Lotion, SPF 50+",6,14.59,Ounce,8.00,$1.82/oz,$14.59,0,NULL,NULL,NULL,NULL,NULL,9
+209,"Banana Boat",79656031775,1,"Banana Boat Ultra Sport Performance SPF 15 Sunscreen",7,11.49,Ounce,6.00,$1.92/oz,$11.49,0,NULL,NULL,NULL,NULL,NULL,9
+210,"Banana Boat",79656004229,1,"Banana Boat Ultra Sport Performance SPF 30 Sunscreen",48,12.99,Ounce,10.00,$1.30/oz,$12.99,0,NULL,NULL,NULL,NULL,NULL,9
+211,"Banana Boat",79656031782,1,"Banana Boat Ultra Sport Performance Sunscreen, SPF 30",8,13.29,Ounce,6.00,$2.22/oz,$13.29,0,NULL,NULL,NULL,NULL,NULL,9
+212,"Hawaiian Tropic",75486087470,1,"Hawaiian Tropic Sheer Touch Sunscreen Lotion, SPF 30",59,11.99,Ounce,8.00,$1.50/oz,$13.69,1,11.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",11.99,9
+213,"Hawaiian Tropic",75486087609,1,"Hawaiian Tropic Sheer Touch Sunscreen Lotion, SPF 50",60,13.49,Ounce,8.00,$1.69/oz,$14.99,1,13.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.49,9
+214,"Banana Boat",79656044836,1,"Banana Boat Protective Dry Oil Sunscreen with Argan Oil, SPF 15",9,13.99,Ounce,6.00,$2.33/oz,$13.99,0,NULL,NULL,NULL,NULL,NULL,9
+215,"Alba Botanica",724742008253,1,"Alba Botanica Hawaiian Sunscreen Soothing Aloe Vera Spf 30",34,14.99,Ounce,4.00,$3.75/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,9
+216,"Alba Botanica",724742008277,1,"Alba Botanica Hawaiian Sunscreen, Revitalizing Green Tea Spf 45",37,14.99,Ounce,4.00,$3.75/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,9
+217,"Alba Botanica",724742003821,1,"Alba Botanica Sunscreen Active Kids Clear Spray, SPF 50",39,19.99,Ounce,6.00,$3.33/oz,$19.99,0,NULL,NULL,NULL,NULL,NULL,9
+218,"Hawaiian Tropic",75486091125,1,"Hawaiian Tropic Silk Hydration Sunscreen Clear Spray, SPF 30",61,12.49,Ounce,6.00,$2.08/oz,$13.99,1,12.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",12.49,9
+219,"Hawaiian Tropic",75486091132,1,"Hawaiian Tropic Silk Hydration Sunscreen Face Lotion, SPF 30",62,13.69,Ounce,1.70,$8.05/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,9
+220,"Banana Boat",79656018066,1,"Banana Boat Kids Sport Sunscreen Spray, Broad Spectrum SPF 50+",10,13.99,Ounce,6.00,$2.33/oz,$13.99,0,NULL,NULL,NULL,NULL,NULL,9
+221,Coola,857724008245,1,"Coola Classic Body Organic Sunscreen Lotion SPF 50 - Fragrance Free",54,27.99,Ounce,5.00,$5.60/oz,$27.99,0,NULL,NULL,NULL,NULL,NULL,9
+222,Coola,857724008252,1,"Coola Classic Body Organic Sunscreen Lotion SPF 50 - Guava Mango",53,27.99,Ounce,5.00,$5.60/oz,$27.99,0,NULL,NULL,NULL,NULL,NULL,9
+223,Coola,857724008962,1,"Coola Classic Body Organic Sunscreen Spray SPF 30 - Tropical Coconut",14,24.99,Ounce,6.00,$4.17/oz,$24.99,0,NULL,NULL,NULL,NULL,NULL,9
+224,Coola,857724008986,1,"Coola Classic Body Organic Sunscreen Spray SPF 50 - Fragrance Free",15,24.99,Ounce,6.00,$4.17/oz,$24.99,0,NULL,NULL,NULL,NULL,NULL,9
+225,"Hawaiian Tropic",75486091170,1,"Hawaiian Tropic Everyday Active Lotion SPF 50",63,14.99,Ounce,8.00,$1.87/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,9
+226,"Hawaiian Tropic",75486089863,1,"Hawaiian Tropic Island Sport Lotion SPF 15",64,13.69,Ounce,8.00,$1.71/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,9
+227,"Hawaiian Tropic",75486089870,1,"Hawaiian Tropic Island Sport Lotion SPF 30",65,13.69,Ounce,8.00,$1.71/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,9
+228,"Hawaiian Tropic",75486091507,1,"Hawaiian Tropic Antioxidant Lotion SPF 30",66,13.69,Ounce,6.00,$2.28/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,9
+229,"Hawaiian Tropic",75486091514,1,"Hawaiian Tropic Antioxidant Lotion, SPF 50",67,14.99,Ounce,6.00,$2.50/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,9
+230,"Hawaiian Tropic",75486091149,1,"Hawaiian Tropic Everyday Active Clear Spray SPF 50",68,14.99,Ounce,6.00,$2.50/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,9
+231,"Sun Bum",871760002975,1,"Sun Bum Face Lotion, SPF 50",99,18.99,Ounce,3.00,$6.33/oz,$18.99,0,NULL,NULL,NULL,NULL,NULL,9
+232,"Hawaiian Tropic",75486091927,1,"Hawaiian Tropic Silk Hydration Weightless Continuous Spray SPF 50",71,13.49,Ounce,6.00,$2.25/oz,$14.99,1,13.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.49,9
+233,"Sun Bum",871760007666,1,"Sun Bum Baby Spray SPF 50",92,19.99,Ounce,1.00,$19.99/oz,$19.99,0,NULL,NULL,NULL,NULL,NULL,9
+234,"Banana Boat",79656024692,1,"Banana Boat Kids Sport Stick SPF 50",11,7.99,Ounce,0.50,$15.98/oz,$7.99,0,NULL,NULL,NULL,NULL,NULL,9
+235,"Hawaiian Tropic",75486132309,1,"Hawaiian Tropic Lip Balm SPF30",80,3.50,Ounce,0.15,$23.33/oz,$3.99,1,3.50,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",3.50,9
+236,"Sun Bum",871760000322,1,"Sun Bum Original SPF 50 Sunscreen Lotion",102,13.99,Ounce,3.00,$4.66/oz,$13.99,0,NULL,NULL,NULL,NULL,NULL,31
+237,"Hawaiian Tropic",75486091828,1,"Hawaiian Tropic Sunscreen Mist, Antioxidant+, SPF 30",76,10.99,Ounce,3.40,$3.23/oz,$10.99,0,NULL,NULL,NULL,NULL,NULL,31
+238,"Sun Bum",871760001930,1,"Sun Bum Original SPF 30 Sunscreen Lotion",103,22.99,Ounce,8.00,$2.87/oz,$22.99,0,NULL,NULL,NULL,NULL,NULL,31
+239,"Sun Bum",871760002098,1,"Sun Bum Original SPF 70 Sunscreen Lotion",98,20.69,Ounce,8.00,$2.59/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,31
+240,"Hawaiian Tropic",75486089894,1,"Hawaiian Tropic Island Sport Sunscreen, SPF 30",74,13.99,Ounce,6.00,$2.33/oz,$13.99,0,NULL,NULL,NULL,NULL,NULL,31
+241,"Hawaiian Tropic",75486091859,1,"Hawaiian Tropic Silk Hydration Lotion Sunscreen, SPF 30",73,13.69,Ounce,6.00,$2.28/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,31
+242,Neutrogena,86800110804,1,"Neutrogena Sheer Zinc Dry-Touch Sunscreen Broad Spectrum SPF 50",1,19.99,Each,1.00,NULL,$19.99,0,NULL,NULL,NULL,NULL,NULL,31
+243,"Hawaiian Tropic",75486087463,1,"Hawaiian Tropic Sheer Touch Ultra Radiance Lotion Sunscreen SPF 15",58,13.69,Ounce,8.00,$1.71/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,31
+244,"Banana Boat",79656031867,1,"Banana Boat Sport Performance Sunscreen, SPF 50",2,11.99,Ounce,8.00,$1.50/oz,$11.99,0,NULL,NULL,NULL,NULL,NULL,31
+245,"Banana Boat",79656031799,1,"Banana Boat Sport Sunscreen Spray, SPF 50+",3,13.19,Ounce,6.00,$2.20/oz,$14.69,1,13.19,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.19,31
+246,"Sun Bum",871760001978,1,"Sun Bum Moisturizing Sunscreen Spray, SPF 50",97,20.69,Ounce,6.00,$3.45/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,31
+247,"Hawaiian Tropic",75486132538,1,"Hawaiian Tropic Mineral Translucent Sunscreen Powder Brush SPF 30",57,23.99,Ounce,0.15,$159.93/oz,$23.99,0,NULL,NULL,NULL,NULL,NULL,31
+248,Neutrogena,86800110828,1,"Neutrogena Pure & Free Baby Sunscreen Lotion Broad Spectrum SPF 50",4,19.99,Ounce,3.00,$6.66/oz,$19.99,0,NULL,NULL,NULL,NULL,NULL,31
+249,"Banana Boat",79656024326,1,"Banana Boat Baby 100% Mineral Sunscreen Lotion SPF50",5,12.79,Ounce,6.00,$2.13/oz,$12.79,0,NULL,NULL,NULL,NULL,NULL,31
+250,"Banana Boat",79656024340,1,"Banana Boat Sport Mineral Sunscreen Lotion, SPF 50",47,15.49,Ounce,6.00,$2.58/oz,$15.49,0,NULL,NULL,NULL,NULL,NULL,31
+251,"Banana Boat",79656049718,1,"Banana Boat Sport Performance Sunscreen Lotion, SPF 30",49,11.49,Ounce,8.00,$1.44/oz,$12.99,1,11.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",11.49,31
+252,"Banana Boat",79656049725,1,"Banana Boat Sport Performance Sunscreen Lotion, SPF 50+",6,14.59,Ounce,8.00,$1.82/oz,$14.59,0,NULL,NULL,NULL,NULL,NULL,31
+253,"Banana Boat",79656031775,1,"Banana Boat Ultra Sport Performance SPF 15 Sunscreen",7,11.49,Ounce,6.00,$1.92/oz,$11.49,0,NULL,NULL,NULL,NULL,NULL,31
+254,"Banana Boat",79656031782,1,"Banana Boat Ultra Sport Performance Sunscreen, SPF 30",8,11.99,Ounce,6.00,$2.00/oz,$11.99,0,NULL,NULL,NULL,NULL,NULL,31
+255,"Hawaiian Tropic",75486087470,1,"Hawaiian Tropic Sheer Touch Sunscreen Lotion, SPF 30",59,13.69,Ounce,8.00,$1.71/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,31
+256,"Hawaiian Tropic",75486087609,1,"Hawaiian Tropic Sheer Touch Sunscreen Lotion, SPF 50",60,13.49,Ounce,8.00,$1.69/oz,$14.99,1,13.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.49,31
+257,"Banana Boat",79656044836,1,"Banana Boat Protective Dry Oil Sunscreen with Argan Oil, SPF 15",9,11.99,Ounce,6.00,$2.00/oz,$11.99,0,NULL,NULL,NULL,NULL,NULL,31
+258,"Hawaiian Tropic",75486091125,1,"Hawaiian Tropic Silk Hydration Sunscreen Clear Spray, SPF 30",61,13.99,Ounce,6.00,$2.33/oz,$13.99,0,NULL,NULL,NULL,NULL,NULL,31
+259,"Banana Boat",79656018066,1,"Banana Boat Kids Sport Sunscreen Spray, Broad Spectrum SPF 50+",10,12.49,Ounce,6.00,$2.08/oz,$12.49,0,NULL,NULL,NULL,NULL,NULL,31
+260,"Hawaiian Tropic",75486091507,1,"Hawaiian Tropic Antioxidant Lotion SPF 30",66,13.69,Ounce,6.00,$2.28/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,31
+261,"Hawaiian Tropic",75486091514,1,"Hawaiian Tropic Antioxidant Lotion, SPF 50",67,14.99,Ounce,6.00,$2.50/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,31
+262,"Hawaiian Tropic",75486091149,1,"Hawaiian Tropic Everyday Active Clear Spray SPF 50",68,14.99,Ounce,6.00,$2.50/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,31
+263,"Hawaiian Tropic",75486112110,1,"Hawaiian Tropic Mineral Skin Nourishing Milk for Face SPF 30",78,19.69,Ounce,3.40,$5.79/oz,$19.69,0,NULL,NULL,NULL,NULL,NULL,31
+264,"Hawaiian Tropic",75486112141,1,"Hawaiian Tropic Mineral Skin Nourishing Milk SPF 50",69,18.99,Ounce,3.40,$5.59/oz,$18.99,0,NULL,NULL,NULL,NULL,NULL,31
+265,"Sun Bum",871760002975,1,"Sun Bum Face Lotion, SPF 50",99,18.99,Ounce,3.00,$6.33/oz,$18.99,0,NULL,NULL,NULL,NULL,NULL,31
+266,"Hawaiian Tropic",75486091866,1,"Hawaiian Tropic Silk Hydration Weightless Lotion SPF 50",70,12.49,Ounce,6.00,$2.08/oz,$12.49,0,NULL,NULL,NULL,NULL,NULL,31
+267,"Hawaiian Tropic",75486091927,1,"Hawaiian Tropic Silk Hydration Weightless Continuous Spray SPF 50",71,14.99,Ounce,6.00,$2.50/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,31
+268,"Banana Boat",79656024692,1,"Banana Boat Kids Sport Stick SPF 50",11,7.99,Ounce,0.50,$15.98/oz,$7.99,0,NULL,NULL,NULL,NULL,NULL,31
+269,"Banana Boat",79656016819,1,"Banana Boat Kid's Sport Lotion, SPF 50",12,13.19,Ounce,6.00,$2.20/oz,$14.69,1,13.19,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.19,31
+270,"Hawaiian Tropic",75486089894,1,"Hawaiian Tropic Island Sport Sunscreen, SPF 30",74,11.99,Ounce,6.00,$2.00/oz,$11.99,0,NULL,NULL,NULL,NULL,NULL,19
+271,"Hawaiian Tropic",75486091859,1,"Hawaiian Tropic Silk Hydration Lotion Sunscreen, SPF 30",73,10.99,Ounce,6.00,$1.83/oz,$10.99,0,NULL,NULL,NULL,NULL,NULL,19
+272,Neutrogena,86800110804,1,"Neutrogena Sheer Zinc Dry-Touch Sunscreen Broad Spectrum SPF 50",1,16.99,Each,1.00,NULL,$16.99,0,NULL,NULL,NULL,NULL,NULL,19
+273,"Hawaiian Tropic",75486087463,1,"Hawaiian Tropic Sheer Touch Ultra Radiance Lotion Sunscreen SPF 15",58,13.69,Ounce,8.00,$1.71/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,19
+274,"Banana Boat",79656031867,1,"Banana Boat Sport Performance Sunscreen, SPF 50",2,11.99,Ounce,8.00,$1.50/oz,$11.99,0,NULL,NULL,NULL,NULL,NULL,19
+275,"Banana Boat",79656031799,1,"Banana Boat Sport Sunscreen Spray, SPF 50+",3,13.19,Ounce,6.00,$2.20/oz,$14.69,1,13.19,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.19,19
+276,Neutrogena,86800110828,1,"Neutrogena Pure & Free Baby Sunscreen Lotion Broad Spectrum SPF 50",4,19.99,Ounce,3.00,$6.66/oz,$19.99,0,NULL,NULL,NULL,NULL,NULL,19
+277,"Banana Boat",79656024326,1,"Banana Boat Baby 100% Mineral Sunscreen Lotion SPF50",5,15.49,Ounce,6.00,$2.58/oz,$15.49,0,NULL,NULL,NULL,NULL,NULL,19
+278,"Banana Boat",79656024340,1,"Banana Boat Sport Mineral Sunscreen Lotion, SPF 50",47,13.99,Ounce,6.00,$2.33/oz,$15.49,1,13.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.99,19
+279,"Banana Boat",79656049718,1,"Banana Boat Sport Performance Sunscreen Lotion, SPF 30",49,11.49,Ounce,8.00,$1.44/oz,$12.99,1,11.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",11.49,19
+280,"Banana Boat",79656049725,1,"Banana Boat Sport Performance Sunscreen Lotion, SPF 50+",6,12.99,Ounce,8.00,$1.62/oz,$14.59,1,12.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",12.99,19
+281,"Banana Boat",79656004229,1,"Banana Boat Ultra Sport Performance SPF 30 Sunscreen",48,11.99,Ounce,10.00,$1.20/oz,$11.99,0,NULL,NULL,NULL,NULL,NULL,19
+282,"Banana Boat",79656031782,1,"Banana Boat Ultra Sport Performance Sunscreen, SPF 30",8,11.99,Ounce,6.00,$2.00/oz,$13.29,1,11.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",11.99,19
+283,"Hawaiian Tropic",75486087470,1,"Hawaiian Tropic Sheer Touch Sunscreen Lotion, SPF 30",59,13.69,Ounce,8.00,$1.71/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,19
+284,"Hawaiian Tropic",75486087609,1,"Hawaiian Tropic Sheer Touch Sunscreen Lotion, SPF 50",60,13.49,Ounce,8.00,$1.69/oz,$14.99,1,13.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.49,19
+285,"Hawaiian Tropic",75486091125,1,"Hawaiian Tropic Silk Hydration Sunscreen Clear Spray, SPF 30",61,12.49,Ounce,6.00,$2.08/oz,$13.99,1,12.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",12.49,19
+286,"Hawaiian Tropic",75486091132,1,"Hawaiian Tropic Silk Hydration Sunscreen Face Lotion, SPF 30",62,13.69,Ounce,1.70,$8.05/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,19
+287,Neutrogena,86800110811,1,"Neutrogena Sheer Zinc Face Dry-Touch Sunscreen Broad Spectrum SPF 50 For Sensitive Skin",18,17.99,Ounce,2.00,$9.00/oz,$17.99,0,NULL,NULL,NULL,NULL,NULL,19
+288,"Banana Boat",79656018066,1,"Banana Boat Kids Sport Sunscreen Spray, Broad Spectrum SPF 50+",10,13.99,Ounce,6.00,$2.33/oz,$13.99,0,NULL,NULL,NULL,NULL,NULL,19
+289,"Hawaiian Tropic",75486091170,1,"Hawaiian Tropic Everyday Active Lotion SPF 50",63,12.49,Ounce,8.00,$1.56/oz,$12.49,0,NULL,NULL,NULL,NULL,NULL,19
+290,"Hawaiian Tropic",75486089870,1,"Hawaiian Tropic Island Sport Lotion SPF 30",65,13.69,Ounce,8.00,$1.71/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,19
+291,"Hawaiian Tropic",75486091507,1,"Hawaiian Tropic Antioxidant Lotion SPF 30",66,13.69,Ounce,6.00,$2.28/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,19
+292,"Hawaiian Tropic",75486091514,1,"Hawaiian Tropic Antioxidant Lotion, SPF 50",67,14.99,Ounce,6.00,$2.50/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,19
+293,"Hawaiian Tropic",75486091149,1,"Hawaiian Tropic Everyday Active Clear Spray SPF 50",68,11.99,Ounce,6.00,$2.00/oz,$11.99,0,NULL,NULL,NULL,NULL,NULL,19
+294,"Hawaiian Tropic",75486091866,1,"Hawaiian Tropic Silk Hydration Weightless Lotion SPF 50",70,14.99,Ounce,6.00,$2.50/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,19
+295,"Hawaiian Tropic",75486091927,1,"Hawaiian Tropic Silk Hydration Weightless Continuous Spray SPF 50",71,12.19,Ounce,6.00,$2.03/oz,$12.19,0,NULL,NULL,NULL,NULL,NULL,19
+296,"Sun Bum",871760000322,1,"Sun Bum Original SPF 50 Sunscreen Lotion",102,13.99,Ounce,3.00,$4.66/oz,$13.99,0,NULL,NULL,NULL,NULL,NULL,43
+297,"Hawaiian Tropic",75486091828,1,"Hawaiian Tropic Sunscreen Mist, Antioxidant+, SPF 30",76,13.69,Ounce,3.40,$4.03/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,43
+298,"Sun Bum",871760001923,1,"Sun Bum Original SPF 15 Sunscreen Lotion",104,20.69,Ounce,8.00,$2.59/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,43
+299,"Sun Bum",871760001930,1,"Sun Bum Original SPF 30 Sunscreen Lotion",103,22.99,Ounce,8.00,$2.87/oz,$22.99,0,NULL,NULL,NULL,NULL,NULL,43
+300,"Sun Bum",871760001947,1,"Sun Bum Original SPF 50 Sunscreen Lotion",102,20.69,Ounce,8.00,$2.59/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,43
+301,"Sun Bum",871760002098,1,"Sun Bum Original SPF 70 Sunscreen Lotion",98,22.99,Ounce,8.00,$2.87/oz,$22.99,0,NULL,NULL,NULL,NULL,NULL,43
+302,"Little Hands Hawaii",680201860643,1,"Little Hands Hawaii Sunscreen Original",83,18.99,Ounce,1.00,$18.99/oz,$18.99,0,NULL,NULL,NULL,NULL,NULL,43
+303,"Little Hands Hawaii",680201860636,1,"Little Hands Hawaii Sunscreen Tinted",82,18.99,Ounce,4.00,$4.75/oz,$18.99,0,NULL,NULL,NULL,NULL,NULL,43
+304,"Little Hands Hawaii",852673999477,1,"Little Hands Hawaii Tinted Sunscreen",81,15.49,Ounce,4.00,$3.87/oz,$15.49,0,NULL,NULL,NULL,NULL,NULL,43
+305,"Maui Vera",856930004058,1,"Maui Vera Mineral Sunscreen Spf30",84,12.99,Ounce,3.00,$4.33/oz,$14.99,1,12.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",12.99,43
+306,"Hawaiian Tropic",75486089894,1,"Hawaiian Tropic Island Sport Sunscreen, SPF 30",74,13.99,Ounce,6.00,$2.33/oz,$13.99,0,NULL,NULL,NULL,NULL,NULL,43
+307,"Hawaiian Tropic",75486091859,1,"Hawaiian Tropic Silk Hydration Lotion Sunscreen, SPF 30",73,13.69,Ounce,6.00,$2.28/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,43
+308,"Sun Bum",871760001954,1,"Sun Bum Sunscreen Spray, SPF 15",101,22.99,Ounce,6.00,$3.83/oz,$22.99,0,NULL,NULL,NULL,NULL,NULL,43
+309,Neutrogena,86800110804,1,"Neutrogena Sheer Zinc Dry-Touch Sunscreen Broad Spectrum SPF 50",1,16.99,Each,1.00,NULL,$16.99,0,NULL,NULL,NULL,NULL,NULL,43
+310,"Hawaiian Tropic",75486087463,1,"Hawaiian Tropic Sheer Touch Ultra Radiance Lotion Sunscreen SPF 15",58,11.99,Ounce,8.00,$1.50/oz,$13.69,1,11.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",11.99,43
+311,"Banana Boat",79656031867,1,"Banana Boat Sport Performance Sunscreen, SPF 50",2,13.19,Ounce,8.00,$1.65/oz,$14.69,1,13.19,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.19,43
+312,"Banana Boat",79656031799,1,"Banana Boat Sport Sunscreen Spray, SPF 50+",3,13.19,Ounce,6.00,$2.20/oz,$14.69,1,13.19,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.19,43
+313,"Sun Bum",871760001978,1,"Sun Bum Moisturizing Sunscreen Spray, SPF 50",97,20.69,Ounce,6.00,$3.45/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,43
+314,Neutrogena,86800110828,1,"Neutrogena Pure & Free Baby Sunscreen Lotion Broad Spectrum SPF 50",4,19.99,Ounce,3.00,$6.66/oz,$19.99,0,NULL,NULL,NULL,NULL,NULL,43
+315,"Banana Boat",79656024326,1,"Banana Boat Baby 100% Mineral Sunscreen Lotion SPF50",5,13.99,Ounce,6.00,$2.33/oz,$15.49,1,13.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.99,43
+316,"Banana Boat",79656024340,1,"Banana Boat Sport Mineral Sunscreen Lotion, SPF 50",47,13.99,Ounce,6.00,$2.33/oz,$15.49,1,13.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.99,43
+317,"Banana Boat",79656049718,1,"Banana Boat Sport Performance Sunscreen Lotion, SPF 30",49,11.49,Ounce,8.00,$1.44/oz,$12.99,1,11.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",11.49,43
+318,"Banana Boat",79656049725,1,"Banana Boat Sport Performance Sunscreen Lotion, SPF 50+",6,12.99,Ounce,8.00,$1.62/oz,$14.59,1,12.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",12.99,43
+319,"Banana Boat",79656031775,1,"Banana Boat Ultra Sport Performance SPF 15 Sunscreen",7,13.29,Ounce,6.00,$2.22/oz,$13.29,0,NULL,NULL,NULL,NULL,NULL,43
+320,"Banana Boat",79656004229,1,"Banana Boat Ultra Sport Performance SPF 30 Sunscreen",48,11.49,Ounce,10.00,$1.15/oz,$12.99,1,11.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",11.49,43
+321,"Banana Boat",79656031782,1,"Banana Boat Ultra Sport Performance Sunscreen, SPF 30",8,11.99,Ounce,6.00,$2.00/oz,$13.29,1,11.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",11.99,43
+322,"Hawaiian Tropic",75486087470,1,"Hawaiian Tropic Sheer Touch Sunscreen Lotion, SPF 30",59,11.99,Ounce,8.00,$1.50/oz,$13.69,1,11.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",11.99,43
+323,"Hawaiian Tropic",75486087609,1,"Hawaiian Tropic Sheer Touch Sunscreen Lotion, SPF 50",60,13.49,Ounce,8.00,$1.69/oz,$14.99,1,13.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.49,43
+324,"Banana Boat",79656044836,1,"Banana Boat Protective Dry Oil Sunscreen with Argan Oil, SPF 15",9,13.99,Ounce,6.00,$2.33/oz,$13.99,0,NULL,NULL,NULL,NULL,NULL,43
+325,"Alba Botanica",724742008253,1,"Alba Botanica Hawaiian Sunscreen Soothing Aloe Vera Spf 30",34,14.99,Ounce,4.00,$3.75/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,43
+326,"Alba Botanica",724742008277,1,"Alba Botanica Hawaiian Sunscreen, Revitalizing Green Tea Spf 45",37,14.99,Ounce,4.00,$3.75/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,43
+327,"Hawaiian Tropic",75486091125,1,"Hawaiian Tropic Silk Hydration Sunscreen Clear Spray, SPF 30",61,12.49,Ounce,6.00,$2.08/oz,$13.99,1,12.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",12.49,43
+328,"Hawaiian Tropic",75486091132,1,"Hawaiian Tropic Silk Hydration Sunscreen Face Lotion, SPF 30",62,13.69,Ounce,1.70,$8.05/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,43
+329,"Banana Boat",79656018066,1,"Banana Boat Kids Sport Sunscreen Spray, Broad Spectrum SPF 50+",10,13.99,Ounce,6.00,$2.33/oz,$13.99,0,NULL,NULL,NULL,NULL,NULL,43
+330,"Hawaiian Tropic",75486091170,1,"Hawaiian Tropic Everyday Active Lotion SPF 50",63,14.99,Ounce,8.00,$1.87/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,43
+331,"Hawaiian Tropic",75486089863,1,"Hawaiian Tropic Island Sport Lotion SPF 15",64,13.69,Ounce,8.00,$1.71/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,43
+332,"Hawaiian Tropic",75486089870,1,"Hawaiian Tropic Island Sport Lotion SPF 30",65,13.69,Ounce,8.00,$1.71/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,43
+333,"Hawaiian Tropic",75486091507,1,"Hawaiian Tropic Antioxidant Lotion SPF 30",66,13.69,Ounce,6.00,$2.28/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,43
+334,"Hawaiian Tropic",75486091514,1,"Hawaiian Tropic Antioxidant Lotion, SPF 50",67,14.99,Ounce,6.00,$2.50/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,43
+335,"Hawaiian Tropic",75486091149,1,"Hawaiian Tropic Everyday Active Clear Spray SPF 50",68,14.99,Ounce,6.00,$2.50/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,43
+336,"Sun Bum",871760008137,1,"Sun Bum Mineral Spray SPF 50",100,19.99,Each,1.00,NULL,$19.99,0,NULL,NULL,NULL,NULL,NULL,43
+337,"Sun Bum",871760002975,1,"Sun Bum Face Lotion, SPF 50",99,14.99,Ounce,3.00,$5.00/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,43
+338,"Hawaiian Tropic",75486091866,1,"Hawaiian Tropic Silk Hydration Weightless Lotion SPF 50",70,14.99,Ounce,6.00,$2.50/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,43
+339,"Hawaiian Tropic",75486091927,1,"Hawaiian Tropic Silk Hydration Weightless Continuous Spray SPF 50",71,13.49,Ounce,6.00,$2.25/oz,$14.99,1,13.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.49,43
+340,"Banana Boat",79656046649,1,"Banana Boat Sport Ultra Lip Balm, SPF 50",19,3.50,Ounce,0.15,$23.33/oz,$4.19,1,3.50,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",3.50,43
+341,"Banana Boat",79656024692,1,"Banana Boat Kids Sport Stick SPF 50",11,7.99,Ounce,0.50,$15.98/oz,$7.99,0,NULL,NULL,NULL,NULL,NULL,43
+342,"Hawaiian Tropic",75486132309,1,"Hawaiian Tropic Lip Balm SPF30",80,3.99,Ounce,0.15,$26.60/oz,$3.99,0,NULL,NULL,NULL,NULL,NULL,43
+343,"Sol Remedies",7191995160,1,"Sol Remedies Sunscreen Reef Safe",88,16.99,Ounce,4.00,$4.25/oz,$19.99,1,16.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",16.99,48
+344,"Sun Bum",871760001923,1,"Sun Bum Original SPF 15 Sunscreen Lotion",104,22.99,Ounce,8.00,$2.87/oz,$22.99,0,NULL,NULL,NULL,NULL,NULL,48
+345,"Sun Bum",871760001930,1,"Sun Bum Original SPF 30 Sunscreen Lotion",103,20.69,Ounce,8.00,$2.59/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,48
+346,"Sun Bum",871760001947,1,"Sun Bum Original SPF 50 Sunscreen Lotion",102,20.69,Ounce,8.00,$2.59/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,48
+347,"Ao Organics",602592828,1,"Ao Organics Sunscreen Stick Med",42,17.99,Ounce,2.00,$9.00/oz,$17.99,0,NULL,NULL,NULL,NULL,NULL,48
+348,"Little Hands Hawaii",680201860643,1,"Little Hands Hawaii Sunscreen Original",83,16.99,Ounce,1.00,$16.99/oz,$18.99,1,16.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",16.99,48
+349,"Little Hands Hawaii",680201860636,1,"Little Hands Hawaii Sunscreen Tinted",82,18.99,Ounce,4.00,$4.75/oz,$18.99,0,NULL,NULL,NULL,NULL,NULL,48
+350,"Little Hands Hawaii",852673999477,1,"Little Hands Hawaii Tinted Sunscreen",81,15.49,Ounce,4.00,$3.87/oz,$15.49,0,NULL,NULL,NULL,NULL,NULL,48
+351,"Hawaiian Tropic",75486089894,1,"Hawaiian Tropic Island Sport Sunscreen, SPF 30",74,13.99,Ounce,6.00,$2.33/oz,$13.99,0,NULL,NULL,NULL,NULL,NULL,48
+352,"Sun Bum",871760001954,1,"Sun Bum Sunscreen Spray, SPF 15",101,20.69,Ounce,6.00,$3.45/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,48
+353,"Alba Botanica",724742003814,1,"Alba Botanica Sunscreen Sensitive Spray, SPF 50",40,19.99,Ounce,6.00,$3.33/oz,$19.99,0,NULL,NULL,NULL,NULL,NULL,48
+354,"Banana Boat",79656031799,1,"Banana Boat Sport Sunscreen Spray, SPF 50+",3,13.19,Ounce,6.00,$2.20/oz,$14.69,1,13.19,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.19,48
+355,"Sun Bum",871760001978,1,"Sun Bum Moisturizing Sunscreen Spray, SPF 50",97,20.69,Ounce,6.00,$3.45/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,48
+356,"Alba Botanica",724742008437,1,"Alba Botanica Hawaiian Sunscreen, Nourishing Coconut SPF 50",32,20.49,Ounce,6.00,$3.42/oz,$20.49,0,NULL,NULL,NULL,NULL,NULL,48
+357,"Banana Boat",79656049718,1,"Banana Boat Sport Performance Sunscreen Lotion, SPF 30",49,11.49,Ounce,8.00,$1.44/oz,$12.99,1,11.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",11.49,48
+358,"Banana Boat",79656049725,1,"Banana Boat Sport Performance Sunscreen Lotion, SPF 50+",6,12.99,Ounce,8.00,$1.62/oz,$14.59,1,12.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",12.99,48
+359,"Banana Boat",79656031782,1,"Banana Boat Ultra Sport Performance Sunscreen, SPF 30",8,11.99,Ounce,6.00,$2.00/oz,$13.29,1,11.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",11.99,48
+360,"Hawaiian Tropic",75486091125,1,"Hawaiian Tropic Silk Hydration Sunscreen Clear Spray, SPF 30",61,12.49,Ounce,6.00,$2.08/oz,$13.99,1,12.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",12.49,48
+361,Coola,857724008245,1,"Coola Classic Body Organic Sunscreen Lotion SPF 50 - Fragrance Free",54,27.99,Ounce,5.00,$5.60/oz,$27.99,0,NULL,NULL,NULL,NULL,NULL,48
+362,Coola,857724008252,1,"Coola Classic Body Organic Sunscreen Lotion SPF 50 - Guava Mango",53,27.99,Ounce,5.00,$5.60/oz,$27.99,0,NULL,NULL,NULL,NULL,NULL,48
+363,Coola,857724008962,1,"Coola Classic Body Organic Sunscreen Spray SPF 30 - Tropical Coconut",14,24.99,Ounce,6.00,$4.17/oz,$24.99,0,NULL,NULL,NULL,NULL,NULL,48
+364,Coola,857724008986,1,"Coola Classic Body Organic Sunscreen Spray SPF 50 - Fragrance Free",15,24.99,Ounce,6.00,$4.17/oz,$24.99,0,NULL,NULL,NULL,NULL,NULL,48
+365,"Sun Bum",871760008137,1,"Sun Bum Mineral Spray SPF 50",100,19.99,Each,1.00,NULL,$19.99,0,NULL,NULL,NULL,NULL,NULL,48
+366,"Sun Bum",871760002975,1,"Sun Bum Face Lotion, SPF 50",99,17.19,Ounce,3.00,$5.73/oz,$18.99,1,17.19,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",17.19,48
+367,"Sun Bum",871760007727,1,"Sun Bum Mineral Lotion Face SPF 30",90,19.99,Each,1.00,NULL,$19.99,0,NULL,NULL,NULL,NULL,NULL,48
+368,Thinkbaby,890397002684,1,"Thinkbaby Sunscreen Spf50",106,15.79,Ounce,3.00,$5.26/oz,$15.79,0,NULL,NULL,NULL,NULL,NULL,27
+369,Thinksport,890397002806,1,"Thinksport Sunscreen Spf50",107,15.79,Ounce,3.00,$5.26/oz,$15.79,0,NULL,NULL,NULL,NULL,NULL,27
+370,"Alba Botanica",724742004040,1,"Alba Mineral Sunscreen Spf35",35,19.99,Ounce,6.00,$3.33/oz,$19.99,0,NULL,NULL,NULL,NULL,NULL,27
+371,"Sun Bum",871760000322,1,"Sun Bum Original SPF 50 Sunscreen Lotion",102,12.59,Ounce,3.00,$4.20/oz,$13.99,1,12.59,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",12.59,27
+372,"Hawaiian Tropic",75486091828,1,"Hawaiian Tropic Sunscreen Mist, Antioxidant+, SPF 30",76,13.69,Ounce,3.40,$4.03/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,27
+373,"Sun Bum",871760001923,1,"Sun Bum Original SPF 15 Sunscreen Lotion",104,20.69,Ounce,8.00,$2.59/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,27
+374,"Sun Bum",871760001930,1,"Sun Bum Original SPF 30 Sunscreen Lotion",103,20.69,Ounce,8.00,$2.59/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,27
+375,"Sun Bum",871760001947,1,"Sun Bum Original SPF 50 Sunscreen Lotion",102,20.69,Ounce,8.00,$2.59/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,27
+376,"Sun Bum",871760002098,1,"Sun Bum Original SPF 70 Sunscreen Lotion",98,20.69,Ounce,8.00,$2.59/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,27
+377,"Element Herbs",13964029413,1,"Eh Coconut Sunscreen Stk Spf30",56,10.29,Ounce,0.60,$17.15/oz,$10.29,0,NULL,NULL,NULL,NULL,NULL,27
+378,"Elemental Herbs",13964029406,1,"Eh Unscntd Sunscreen Stk Spf30",108,10.29,Ounce,0.60,$17.15/oz,$10.29,0,NULL,NULL,NULL,NULL,NULL,27
+379,"Little Hands Hawaii",680201860643,1,"Little Hands Hawaii Sunscreen Original",83,16.99,Ounce,1.00,$16.99/oz,$18.99,1,16.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",16.99,27
+380,"Little Hands Hawaii",680201860636,1,"Little Hands Hawaii Sunscreen Tinted",82,16.99,Ounce,4.00,$4.25/oz,$18.99,1,16.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",16.99,27
+381,"Little Hands Hawaii",852673999477,1,"Little Hands Hawaii Tinted Sunscreen",81,13.49,Ounce,4.00,$3.37/oz,$15.49,1,13.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.49,27
+382,"Maui Vera",856930004041,1,"Maui Vera Mineral Sunscreen Spf30",84,24.49,Ounce,6.50,$3.77/oz,$26.99,1,24.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",24.49,27
+383,"Maui Vera",856930004058,1,"Maui Vera Mineral Sunscreen Spf30",84,12.99,Ounce,3.00,$4.33/oz,$14.99,1,12.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",12.99,27
+384,"Hawaiian Tropic",75486089894,1,"Hawaiian Tropic Island Sport Sunscreen, SPF 30",74,13.99,Ounce,6.00,$2.33/oz,$13.99,0,NULL,NULL,NULL,NULL,NULL,27
+385,"Hawaiian Tropic",75486091859,1,"Hawaiian Tropic Silk Hydration Lotion Sunscreen, SPF 30",73,13.69,Ounce,6.00,$2.28/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,27
+386,"Sun Bum",871760001954,1,"Sun Bum Sunscreen Spray, SPF 15",101,20.69,Ounce,6.00,$3.45/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,27
+387,Neutrogena,86800110804,1,"Neutrogena Sheer Zinc Dry-Touch Sunscreen Broad Spectrum SPF 50",1,19.99,Each,1.00,NULL,$19.99,0,NULL,NULL,NULL,NULL,NULL,27
+388,"Hawaiian Tropic",75486087463,1,"Hawaiian Tropic Sheer Touch Ultra Radiance Lotion Sunscreen SPF 15",58,11.99,Ounce,8.00,$1.50/oz,$13.69,1,11.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",11.99,27
+389,"Alba Botanica",724742003814,1,"Alba Botanica Sunscreen Sensitive Spray, SPF 50",40,19.99,Ounce,6.00,$3.33/oz,$19.99,0,NULL,NULL,NULL,NULL,NULL,27
+390,"Banana Boat",79656031867,1,"Banana Boat Sport Performance Sunscreen, SPF 50",2,13.19,Ounce,8.00,$1.65/oz,$14.69,1,13.19,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.19,27
+391,"Banana Boat",79656031799,1,"Banana Boat Sport Sunscreen Spray, SPF 50+",3,13.19,Ounce,6.00,$2.20/oz,$14.69,1,13.19,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.19,27
+392,"Hawaiian Tropic",75486087425,1,"Hawaiian Tropic Sunscreen Tanning Lotion, Spf 4",79,13.69,Ounce,8.00,$1.71/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,27
+393,"Sun Bum",871760001978,1,"Sun Bum Moisturizing Sunscreen Spray, SPF 50",97,20.69,Ounce,6.00,$3.45/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,27
+394,"Hawaiian Tropic",75486132538,1,"Hawaiian Tropic Mineral Translucent Sunscreen Powder Brush SPF 30",57,23.99,Ounce,0.15,$159.93/oz,$23.99,0,NULL,NULL,NULL,NULL,NULL,27
+395,Neutrogena,86800110828,1,"Neutrogena Pure & Free Baby Sunscreen Lotion Broad Spectrum SPF 50",4,19.99,Ounce,3.00,$6.66/oz,$19.99,0,NULL,NULL,NULL,NULL,NULL,27
+396,"Alba Botanica",724742008437,1,"Alba Botanica Hawaiian Sunscreen, Nourishing Coconut SPF 50",32,20.49,Ounce,6.00,$3.42/oz,$20.49,0,NULL,NULL,NULL,NULL,NULL,27
+397,"Alba Botanica",724742003906,1,"Alba Botanica Sunscreen Lotion, Sport Protection, SPF 45",33,14.99,Ounce,4.00,$3.75/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,27
+398,"Alba Botanica",724742003890,1,"Alba Botanica Sunscreen, Sensitive Mineral Protection Spf 30",36,16.29,Ounce,4.00,$4.07/oz,$16.29,0,NULL,NULL,NULL,NULL,NULL,27
+399,"Banana Boat",79656024326,1,"Banana Boat Baby 100% Mineral Sunscreen Lotion SPF50",5,13.99,Ounce,6.00,$2.33/oz,$15.49,1,13.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.99,27
+400,"Banana Boat",79656024340,1,"Banana Boat Sport Mineral Sunscreen Lotion, SPF 50",47,13.99,Ounce,6.00,$2.33/oz,$15.49,1,13.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.99,27
+401,"Banana Boat",79656049718,1,"Banana Boat Sport Performance Sunscreen Lotion, SPF 30",49,11.49,Ounce,8.00,$1.44/oz,$12.99,1,11.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",11.49,27
+402,"Banana Boat",79656049725,1,"Banana Boat Sport Performance Sunscreen Lotion, SPF 50+",6,12.99,Ounce,8.00,$1.62/oz,$14.59,1,12.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",12.99,27
+403,"Banana Boat",79656031775,1,"Banana Boat Ultra Sport Performance SPF 15 Sunscreen",7,13.29,Ounce,6.00,$2.22/oz,$13.29,0,NULL,NULL,NULL,NULL,NULL,27
+404,"Banana Boat",79656004229,1,"Banana Boat Ultra Sport Performance SPF 30 Sunscreen",48,11.49,Ounce,10.00,$1.15/oz,$12.99,1,11.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",11.49,27
+405,"Banana Boat",79656031782,1,"Banana Boat Ultra Sport Performance Sunscreen, SPF 30",8,11.99,Ounce,6.00,$2.00/oz,$13.29,1,11.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",11.99,27
+406,"Hawaiian Tropic",75486087470,1,"Hawaiian Tropic Sheer Touch Sunscreen Lotion, SPF 30",59,11.99,Ounce,8.00,$1.50/oz,$13.69,1,11.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",11.99,27
+407,"Hawaiian Tropic",75486087609,1,"Hawaiian Tropic Sheer Touch Sunscreen Lotion, SPF 50",60,13.49,Ounce,8.00,$1.69/oz,$14.99,1,13.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.49,27
+408,"Sun Bum",871760000339,1,"Sun Bum Travel Size Moisturizing Sunscreen Lotion SPF70",95,12.59,Ounce,3.00,$4.20/oz,$13.99,1,12.59,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",12.59,27
+409,"Banana Boat",79656044836,1,"Banana Boat Protective Dry Oil Sunscreen with Argan Oil, SPF 15",9,13.99,Ounce,6.00,$2.33/oz,$13.99,0,NULL,NULL,NULL,NULL,NULL,27
+410,"Alba Botanica",724742008253,1,"Alba Botanica Hawaiian Sunscreen Soothing Aloe Vera Spf 30",34,15.29,Ounce,4.00,$3.82/oz,$15.29,0,NULL,NULL,NULL,NULL,NULL,27
+411,"Alba Botanica",724742008277,1,"Alba Botanica Hawaiian Sunscreen, Revitalizing Green Tea Spf 45",37,14.99,Ounce,4.00,$3.75/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,27
+412,"Alba Botanica",724742003821,1,"Alba Botanica Sunscreen Active Kids Clear Spray, SPF 50",39,19.99,Ounce,6.00,$3.33/oz,$19.99,0,NULL,NULL,NULL,NULL,NULL,27
+413,"Banana Boat",79656000252,1,"Banana Boat Sunscreen, Spray, Deep Tanning Oil, SPF 4",13,11.69,Ounce,8.00,$1.46/oz,$11.69,0,NULL,NULL,NULL,NULL,NULL,27
+414,"Banana Boat",79656013320,1,"Banana Boat Ultra Sport Clear Sunscreen Spray, SPF 50+",20,19.99,Ounce,12.00,$1.67/oz,$23.59,1,19.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",19.99,27
+415,"Hawaiian Tropic",75486091125,1,"Hawaiian Tropic Silk Hydration Sunscreen Clear Spray, SPF 30",61,12.49,Ounce,6.00,$2.08/oz,$13.99,1,12.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",12.49,27
+416,"Hawaiian Tropic",75486091132,1,"Hawaiian Tropic Silk Hydration Sunscreen Face Lotion, SPF 30",62,13.69,Ounce,1.70,$8.05/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,27
+417,Neutrogena,86800110811,1,"Neutrogena Sheer Zinc Face Dry-Touch Sunscreen Broad Spectrum SPF 50 For Sensitive Skin",18,17.99,Ounce,2.00,$9.00/oz,$17.99,0,NULL,NULL,NULL,NULL,NULL,27
+418,"Banana Boat",79656018066,1,"Banana Boat Kids Sport Sunscreen Spray, Broad Spectrum SPF 50+",10,13.99,Ounce,6.00,$2.33/oz,$13.99,0,NULL,NULL,NULL,NULL,NULL,27
+419,Coola,857724008245,1,"Coola Classic Body Organic Sunscreen Lotion SPF 50 - Fragrance Free",54,27.99,Ounce,5.00,$5.60/oz,$27.99,0,NULL,NULL,NULL,NULL,NULL,27
+420,Coola,857724008252,1,"Coola Classic Body Organic Sunscreen Lotion SPF 50 - Guava Mango",53,27.99,Ounce,5.00,$5.60/oz,$27.99,0,NULL,NULL,NULL,NULL,NULL,27
+421,Coola,857724008962,1,"Coola Classic Body Organic Sunscreen Spray SPF 30 - Tropical Coconut",14,24.99,Ounce,6.00,$4.17/oz,$24.99,0,NULL,NULL,NULL,NULL,NULL,27
+422,Coola,857724008986,1,"Coola Classic Body Organic Sunscreen Spray SPF 50 - Fragrance Free",15,24.99,Ounce,6.00,$4.17/oz,$24.99,0,NULL,NULL,NULL,NULL,NULL,27
+423,Coola,857724008979,1,"Coola Classic Body Organic Sunscreen Spray SPF 50 - Guava Mango",16,24.99,Ounce,6.00,$4.17/oz,$24.99,0,NULL,NULL,NULL,NULL,NULL,27
+424,"Hawaiian Tropic",75486087418,1,"Hawaiian Tropic Sunscreen, Lotion, Sheer Touch, Broad Spectrum Spf 8",77,13.69,Ounce,8.00,$1.71/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,27
+425,"Hawaiian Tropic",75486091170,1,"Hawaiian Tropic Everyday Active Lotion SPF 50",63,14.99,Ounce,8.00,$1.87/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,27
+426,"Hawaiian Tropic",75486089863,1,"Hawaiian Tropic Island Sport Lotion SPF 15",64,13.69,Ounce,8.00,$1.71/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,27
+427,"Hawaiian Tropic",75486089870,1,"Hawaiian Tropic Island Sport Lotion SPF 30",65,13.69,Ounce,8.00,$1.71/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,27
+428,"Hawaiian Tropic",75486091507,1,"Hawaiian Tropic Antioxidant Lotion SPF 30",66,13.69,Ounce,6.00,$2.28/oz,$13.69,0,NULL,NULL,NULL,NULL,NULL,27
+429,"Hawaiian Tropic",75486091514,1,"Hawaiian Tropic Antioxidant Lotion, SPF 50",67,14.99,Ounce,6.00,$2.50/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,27
+430,"Hawaiian Tropic",75486091149,1,"Hawaiian Tropic Everyday Active Clear Spray SPF 50",68,14.99,Ounce,6.00,$2.50/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,27
+431,"Hawaiian Tropic",75486107901,1,"Hawaiian Tropic Mineral Skin Nourishing Milk for Face SPF 30",78,19.69,Ounce,1.70,$11.58/oz,$19.69,0,NULL,NULL,NULL,NULL,NULL,27
+432,"Hawaiian Tropic",75486112110,1,"Hawaiian Tropic Mineral Skin Nourishing Milk for Face SPF 30",78,17.79,Ounce,3.40,$5.23/oz,$19.69,1,17.79,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",17.79,27
+433,"Sun Bum",871760008137,1,"Sun Bum Mineral Spray SPF 50",100,17.99,Each,1.00,NULL,$19.99,1,17.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",17.99,27
+434,"Hawaiian Tropic",75486112141,1,"Hawaiian Tropic Mineral Skin Nourishing Milk SPF 50",69,19.49,Ounce,3.40,$5.73/oz,$21.49,1,19.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",19.49,27
+435,"Sun Bum",840155600621,1,"Sun Bum Face Lotion SPF 70",94,18.99,Ounce,18.00,$1.06/oz,$18.99,0,NULL,NULL,NULL,NULL,NULL,27
+436,"Sun Bum",871760002975,1,"Sun Bum Face Lotion, SPF 50",99,17.19,Ounce,3.00,$5.73/oz,$18.99,1,17.19,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",17.19,27
+437,"Hawaiian Tropic",75486091866,1,"Hawaiian Tropic Silk Hydration Weightless Lotion SPF 50",70,14.99,Ounce,6.00,$2.50/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,27
+438,"Sun Bum",840155602113,1,"Sun Bum SPF 30 Oil Spray",93,24.99,Ounce,5.00,$5.00/oz,$24.99,0,NULL,NULL,NULL,NULL,NULL,27
+439,"Hawaiian Tropic",75486091927,1,"Hawaiian Tropic Silk Hydration Weightless Continuous Spray SPF 50",71,13.49,Ounce,6.00,$2.25/oz,$14.99,1,13.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.49,27
+440,"Sun Bum",871760008144,1,"Sun Bum Mineral Lotion SPF 30",91,20.99,Each,1.00,NULL,$20.99,0,NULL,NULL,NULL,NULL,NULL,27
+441,"Sun Bum",840155602090,1,"Sun Bum SPF 50 Lotion Roll-on",89,20.99,Ounce,3.00,$7.00/oz,$20.99,0,NULL,NULL,NULL,NULL,NULL,27
+442,"Sun Bum",871760007666,1,"Sun Bum Baby Spray SPF 50",92,15.99,Ounce,1.00,$15.99/oz,$15.99,0,NULL,NULL,NULL,NULL,NULL,27
+443,"Sun Bum",840155602120,1,"Sun Bum Glow SPF 30 Lotion",96,22.99,Each,1.00,NULL,$22.99,0,NULL,NULL,NULL,NULL,NULL,27
+444,"Banana Boat",79656046649,1,"Banana Boat Sport Ultra Lip Balm, SPF 50",19,3.50,Ounce,0.15,$23.33/oz,$4.19,1,3.50,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",3.50,27
+445,"Banana Boat",79656024692,1,"Banana Boat Kids Sport Stick SPF 50",11,7.99,Ounce,0.50,$15.98/oz,$7.99,0,NULL,NULL,NULL,NULL,NULL,27
+446,"Banana Boat",79656016819,1,"Banana Boat Kid's Sport Lotion, SPF 50",12,13.19,Ounce,6.00,$2.20/oz,$14.69,1,13.19,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.19,27
+447,"Hawaiian Tropic",75486132309,1,"Hawaiian Tropic Lip Balm SPF30",80,3.50,Ounce,0.15,$23.33/oz,$3.99,1,3.50,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",3.50,27
+448,"Hawaiian Tropic",75486089658,1,"Hawaiian Tropic Tanning Dry Oil Continuous Spray SPF 30",75,14.99,Ounce,6.00,$2.50/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,27
+450,"Alba Botanica",724742004040,1,"Alba Mineral Sunscreen Spf35",35,19.99,Ounce,6.00,$3.33/oz,$19.99,0,NULL,NULL,NULL,NULL,NULL,42
+451,"Sun Bum",871760000322,1,"Sun Bum Original SPF 50 Sunscreen Lotion",102,11.99,Ounce,3.00,$4.00/oz,$11.99,0,NULL,NULL,NULL,NULL,NULL,42
+452,"Hawaiian Tropic",75486091828,1,"Hawaiian Tropic Sunscreen Mist, Antioxidant+, SPF 30",76,10.99,Ounce,3.40,$3.23/oz,$10.99,0,NULL,NULL,NULL,NULL,NULL,42
+453,"Sun Bum",871760001923,1,"Sun Bum Original SPF 15 Sunscreen Lotion",104,20.69,Ounce,8.00,$2.59/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,42
+454,"Sun Bum",871760001930,1,"Sun Bum Original SPF 30 Sunscreen Lotion",103,20.69,Ounce,8.00,$2.59/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,42
+455,"Sun Bum",871760001947,1,"Sun Bum Original SPF 50 Sunscreen Lotion",102,20.69,Ounce,8.00,$2.59/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,42
+456,"Sun Bum",871760002098,1,"Sun Bum Original SPF 70 Sunscreen Lotion",98,20.69,Ounce,8.00,$2.59/oz,$22.99,1,20.69,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",20.69,42
+457,"Ao Organics",602592828,1,"Ao Organics Sunscreen Stick Med",42,17.99,Ounce,2.00,$9.00/oz,$17.99,0,NULL,NULL,NULL,NULL,NULL,42
+458,"Maui Vera",856930004041,1,"Maui Vera Mineral Sunscreen Spf30",84,24.49,Ounce,6.50,$3.77/oz,$26.99,1,24.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",24.49,42
+459,"Maui Vera",856930004058,1,"Maui Vera Mineral Sunscreen Spf30",84,12.99,Ounce,3.00,$4.33/oz,$14.99,1,12.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",12.99,42
+461,"Hawaiian Tropic",75486089894,1,"Hawaiian Tropic Island Sport Sunscreen, SPF 30",74,12.19,Ounce,6.00,$2.03/oz,$12.19,0,NULL,NULL,NULL,NULL,NULL,42
+462,"Hawaiian Tropic",75486091859,1,"Hawaiian Tropic Silk Hydration Lotion Sunscreen, SPF 30",73,10.99,Ounce,6.00,$1.83/oz,$10.99,0,NULL,NULL,NULL,NULL,NULL,42
+463,"Ao Organics",274145810,1,"Ao Organics Reef Safe Sunscreen Lot",41,27.99,Ounce,4.00,$7.00/oz,$27.99,0,NULL,NULL,NULL,NULL,NULL,42
+464,"Sun Bum",871760001954,1,"Sun Bum Sunscreen Spray, SPF 15",101,22.99,Ounce,6.00,$3.83/oz,$22.99,0,NULL,NULL,NULL,NULL,NULL,42
+465,"Hawaiian Tropic",75486087463,1,"Hawaiian Tropic Sheer Touch Ultra Radiance Lotion Sunscreen SPF 15",58,11.19,Ounce,8.00,$1.40/oz,$11.19,0,NULL,NULL,NULL,NULL,NULL,42
+466,"Banana Boat",79656031867,1,"Banana Boat Sport Performance Sunscreen, SPF 50",2,12.49,Ounce,8.00,$1.56/oz,$12.49,0,NULL,NULL,NULL,NULL,NULL,42
+467,"Banana Boat",79656031799,1,"Banana Boat Sport Sunscreen Spray, SPF 50+",3,12.49,Ounce,6.00,$2.08/oz,$12.49,0,NULL,NULL,NULL,NULL,NULL,42
+468,"Hawaiian Tropic",75486087425,1,"Hawaiian Tropic Sunscreen Tanning Lotion, Spf 4",79,11.99,Ounce,8.00,$1.50/oz,$11.99,0,NULL,NULL,NULL,NULL,NULL,42
+469,"Sun Bum",871760001978,1,"Sun Bum Moisturizing Sunscreen Spray, SPF 50",97,18.99,Ounce,6.00,$3.17/oz,$18.99,0,NULL,NULL,NULL,NULL,NULL,42
+470,"Hawaiian Tropic",75486132538,1,"Hawaiian Tropic Mineral Translucent Sunscreen Powder Brush SPF 30",57,21.49,Ounce,0.15,$143.27/oz,$23.99,1,21.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",21.49,42
+471,"Alba Botanica",724742008437,1,"Alba Botanica Hawaiian Sunscreen, Nourishing Coconut SPF 50",32,20.49,Ounce,6.00,$3.42/oz,$20.49,0,NULL,NULL,NULL,NULL,NULL,42
+472,"Alba Botanica",724742003890,1,"Alba Botanica Sunscreen, Sensitive Mineral Protection Spf 30",36,16.29,Ounce,4.00,$4.07/oz,$16.29,0,NULL,NULL,NULL,NULL,NULL,42
+473,"Banana Boat",79656024326,1,"Banana Boat Baby 100% Mineral Sunscreen Lotion SPF50",5,13.99,Ounce,6.00,$2.33/oz,$15.49,1,13.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.99,42
+474,"Banana Boat",79656024340,1,"Banana Boat Sport Mineral Sunscreen Lotion, SPF 50",47,13.99,Ounce,6.00,$2.33/oz,$15.49,1,13.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.99,42
+475,"Banana Boat",79656049718,1,"Banana Boat Sport Performance Sunscreen Lotion, SPF 30",49,12.19,Ounce,8.00,$1.52/oz,$12.19,0,NULL,NULL,NULL,NULL,NULL,42
+476,"Banana Boat",79656049725,1,"Banana Boat Sport Performance Sunscreen Lotion, SPF 50+",6,12.19,Ounce,8.00,$1.52/oz,$12.19,0,NULL,NULL,NULL,NULL,NULL,42
+477,"Banana Boat",79656031775,1,"Banana Boat Ultra Sport Performance SPF 15 Sunscreen",7,11.49,Ounce,6.00,$1.92/oz,$11.49,0,NULL,NULL,NULL,NULL,NULL,42
+478,"Banana Boat",79656004229,1,"Banana Boat Ultra Sport Performance SPF 30 Sunscreen",48,12.19,Ounce,10.00,$1.22/oz,$12.19,0,NULL,NULL,NULL,NULL,NULL,42
+479,"Banana Boat",79656031782,1,"Banana Boat Ultra Sport Performance Sunscreen, SPF 30",8,12.19,Ounce,6.00,$2.03/oz,$12.19,0,NULL,NULL,NULL,NULL,NULL,42
+480,"Hawaiian Tropic",75486087470,1,"Hawaiian Tropic Sheer Touch Sunscreen Lotion, SPF 30",59,11.19,Ounce,8.00,$1.40/oz,$11.19,0,NULL,NULL,NULL,NULL,NULL,42
+481,"Hawaiian Tropic",75486087609,1,"Hawaiian Tropic Sheer Touch Sunscreen Lotion, SPF 50",60,13.49,Ounce,8.00,$1.69/oz,$13.49,0,NULL,NULL,NULL,NULL,NULL,42
+482,"Sun Bum",871760000339,1,"Sun Bum Travel Size Moisturizing Sunscreen Lotion SPF70",95,13.99,Ounce,3.00,$4.66/oz,$13.99,0,NULL,NULL,NULL,NULL,NULL,42
+483,"Banana Boat",79656044836,1,"Banana Boat Protective Dry Oil Sunscreen with Argan Oil, SPF 15",9,12.19,Ounce,6.00,$2.03/oz,$12.19,0,NULL,NULL,NULL,NULL,NULL,42
+484,"Alba Botanica",724742008253,1,"Alba Botanica Hawaiian Sunscreen Soothing Aloe Vera Spf 30",34,15.29,Ounce,4.00,$3.82/oz,$15.29,0,NULL,NULL,NULL,NULL,NULL,42
+485,"Alba Botanica",724742008277,1,"Alba Botanica Hawaiian Sunscreen, Revitalizing Green Tea Spf 45",37,14.99,Ounce,4.00,$3.75/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,42
+486,"Hawaiian Tropic",75486091125,1,"Hawaiian Tropic Silk Hydration Sunscreen Clear Spray, SPF 30",61,11.99,Ounce,6.00,$2.00/oz,$11.99,0,NULL,NULL,NULL,NULL,NULL,42
+487,"Hawaiian Tropic",75486091132,1,"Hawaiian Tropic Silk Hydration Sunscreen Face Lotion, SPF 30",62,11.19,Ounce,1.70,$6.58/oz,$11.19,0,NULL,NULL,NULL,NULL,NULL,42
+488,"Banana Boat",79656018066,1,"Banana Boat Kids Sport Sunscreen Spray, Broad Spectrum SPF 50+",10,12.49,Ounce,6.00,$2.08/oz,$12.49,0,NULL,NULL,NULL,NULL,NULL,42
+489,Coola,857724008245,1,"Coola Classic Body Organic Sunscreen Lotion SPF 50 - Fragrance Free",54,27.99,Ounce,5.00,$5.60/oz,$27.99,0,NULL,NULL,NULL,NULL,NULL,42
+490,Coola,857724008252,1,"Coola Classic Body Organic Sunscreen Lotion SPF 50 - Guava Mango",53,27.99,Ounce,5.00,$5.60/oz,$27.99,0,NULL,NULL,NULL,NULL,NULL,42
+491,Coola,857724008962,1,"Coola Classic Body Organic Sunscreen Spray SPF 30 - Tropical Coconut",14,24.99,Ounce,6.00,$4.17/oz,$24.99,0,NULL,NULL,NULL,NULL,NULL,42
+492,Coola,857724008986,1,"Coola Classic Body Organic Sunscreen Spray SPF 50 - Fragrance Free",15,24.99,Ounce,6.00,$4.17/oz,$24.99,0,NULL,NULL,NULL,NULL,NULL,42
+493,Coola,857724008979,1,"Coola Classic Body Organic Sunscreen Spray SPF 50 - Guava Mango",16,24.99,Ounce,6.00,$4.17/oz,$24.99,0,NULL,NULL,NULL,NULL,NULL,42
+494,Coola,857724008917,1,"Coola Mineral Body Organic Sunscreen Lotion SPF 30 - Tropical Coconut",55,39.99,Ounce,5.00,$8.00/oz,$39.99,0,NULL,NULL,NULL,NULL,NULL,42
+495,Coola,855011007926,1,"Coola Mineral Body Organic Sunscreen Lotion SPF 50 - Fragrance Free",52,39.99,Ounce,5.00,$8.00/oz,$39.99,0,NULL,NULL,NULL,NULL,NULL,42
+496,Coola,857724008740,1,"Coola Mineral Body Organic Sunscreen Spray SPF 30 - Fragrence Free",51,35.99,Ounce,5.00,$7.20/oz,$35.99,0,NULL,NULL,NULL,NULL,NULL,42
+497,"Hawaiian Tropic",75486087418,1,"Hawaiian Tropic Sunscreen, Lotion, Sheer Touch, Broad Spectrum Spf 8",77,11.99,Ounce,8.00,$1.50/oz,$11.99,0,NULL,NULL,NULL,NULL,NULL,42
+498,Coola,850023528520,1,"Coola Mineral Face Organic Sunscreen Lotion Sheer Matte SPF 30 – Tinted",50,35.99,Ounce,1.70,$21.17/oz,$35.99,0,NULL,NULL,NULL,NULL,NULL,42
+499,Coppertone,72140028824,1,"Coppertone Pure & Simple Kids SPF 50 Spray",21,14.29,Ounce,5.00,$2.86/oz,$14.29,0,NULL,NULL,NULL,NULL,NULL,42
+500,"Hawaiian Tropic",75486091170,1,"Hawaiian Tropic Everyday Active Lotion SPF 50",63,12.49,Ounce,8.00,$1.56/oz,$12.49,0,NULL,NULL,NULL,NULL,NULL,42
+501,"Hawaiian Tropic",75486089870,1,"Hawaiian Tropic Island Sport Lotion SPF 30",65,11.99,Ounce,8.00,$1.50/oz,$11.99,0,NULL,NULL,NULL,NULL,NULL,42
+502,"Hawaiian Tropic",75486091507,1,"Hawaiian Tropic Antioxidant Lotion SPF 30",66,11.19,Ounce,6.00,$1.87/oz,$11.19,0,NULL,NULL,NULL,NULL,NULL,42
+503,"Hawaiian Tropic",75486091514,1,"Hawaiian Tropic Antioxidant Lotion, SPF 50",67,12.19,Ounce,6.00,$2.03/oz,$12.19,0,NULL,NULL,NULL,NULL,NULL,42
+504,"Hawaiian Tropic",75486091149,1,"Hawaiian Tropic Everyday Active Clear Spray SPF 50",68,11.99,Ounce,6.00,$2.00/oz,$11.99,0,NULL,NULL,NULL,NULL,NULL,42
+505,"Hawaiian Tropic",75486107901,1,"Hawaiian Tropic Mineral Skin Nourishing Milk for Face SPF 30",78,19.69,Ounce,1.70,$11.58/oz,$19.69,0,NULL,NULL,NULL,NULL,NULL,42
+506,"Hawaiian Tropic",75486112110,1,"Hawaiian Tropic Mineral Skin Nourishing Milk for Face SPF 30",78,17.79,Ounce,3.40,$5.23/oz,$19.69,1,17.79,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",17.79,42
+507,"Sun Bum",871760008137,1,"Sun Bum Mineral Spray SPF 50",100,17.99,Each,1.00,NULL,$19.99,1,17.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",17.99,42
+508,"Hawaiian Tropic",75486112141,1,"Hawaiian Tropic Mineral Skin Nourishing Milk SPF 50",69,19.49,Ounce,3.40,$5.73/oz,$21.49,1,19.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",19.49,42
+509,"Sun Bum",871760002975,1,"Sun Bum Face Lotion, SPF 50",99,14.99,Ounce,3.00,$5.00/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,42
+510,"Hawaiian Tropic",75486091866,1,"Hawaiian Tropic Silk Hydration Weightless Lotion SPF 50",70,12.49,Ounce,6.00,$2.08/oz,$12.49,0,NULL,NULL,NULL,NULL,NULL,42
+511,"Hawaiian Tropic",75486091927,1,"Hawaiian Tropic Silk Hydration Weightless Continuous Spray SPF 50",71,12.19,Ounce,6.00,$2.03/oz,$12.19,0,NULL,NULL,NULL,NULL,NULL,42
+512,"Sun Bum",871760007727,1,"Sun Bum Mineral Lotion Face SPF 30",90,24.99,Each,1.00,NULL,$24.99,0,NULL,NULL,NULL,NULL,NULL,42
+513,"Sun Bum",871760008144,1,"Sun Bum Mineral Lotion SPF 30",91,20.99,Each,1.00,NULL,$20.99,0,NULL,NULL,NULL,NULL,NULL,42
+514,"Sun Bum",871760007666,1,"Sun Bum Baby Spray SPF 50",92,19.99,Ounce,1.00,$19.99/oz,$19.99,0,NULL,NULL,NULL,NULL,NULL,42
+515,"Banana Boat",79656046649,1,"Banana Boat Sport Ultra Lip Balm, SPF 50",19,3.29,Ounce,0.15,$21.93/oz,$3.29,0,NULL,NULL,NULL,NULL,NULL,42
+516,"Banana Boat",79656024692,1,"Banana Boat Kids Sport Stick SPF 50",11,7.99,Ounce,0.50,$15.98/oz,$7.99,0,NULL,NULL,NULL,NULL,NULL,42
+517,"Banana Boat",79656016819,1,"Banana Boat Kid's Sport Lotion, SPF 50",12,13.19,Ounce,6.00,$2.20/oz,$14.69,1,13.19,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.19,42
+518,"Hawaiian Tropic",75486089658,1,"Hawaiian Tropic Tanning Dry Oil Continuous Spray SPF 30",75,12.19,Ounce,6.00,$2.03/oz,$12.19,0,NULL,NULL,NULL,NULL,NULL,42
+520,"Sun Bum",871760000322,1,"Sun Bum Original SPF 50 Sunscreen Lotion",102,13.99,Ounce,3.00,$4.66/oz,$13.99,0,NULL,NULL,NULL,NULL,NULL,23
+521,Aveeno,381371026616,1,"Aveeno Kids Sens Spf50 Lot",46,15.79,Ounce,3.00,$5.26/oz,$15.99,1,15.79,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",15.79,23
+522,"Hawaiian Tropic",75486091828,1,"Hawaiian Tropic Sunscreen Mist, Antioxidant+, SPF 30",76,10.99,Ounce,3.40,$3.23/oz,$10.99,0,NULL,NULL,NULL,NULL,NULL,23
+523,Aveeno,381371188444,1,"Aveeno Mineral Sensitive Skin Sunscreen Stick SPF50",45,17.49,Ounce,1.00,$17.49/oz,$17.49,0,NULL,NULL,NULL,NULL,NULL,23
+524,"Sun Bum",871760001923,1,"Sun Bum Original SPF 15 Sunscreen Lotion",104,22.99,Ounce,8.00,$2.87/oz,$22.99,0,NULL,NULL,NULL,NULL,NULL,23
+525,"Sun Bum",871760001930,1,"Sun Bum Original SPF 30 Sunscreen Lotion",103,22.99,Ounce,8.00,$2.87/oz,$22.99,0,NULL,NULL,NULL,NULL,NULL,23
+526,"Sun Bum",871760001947,1,"Sun Bum Original SPF 50 Sunscreen Lotion",102,22.99,Ounce,8.00,$2.87/oz,$22.99,0,NULL,NULL,NULL,NULL,NULL,23
+527,"Sun Bum",871760002098,1,"Sun Bum Original SPF 70 Sunscreen Lotion",98,22.99,Ounce,8.00,$2.87/oz,$22.99,0,NULL,NULL,NULL,NULL,NULL,23
+528,"Ao Organics",602564894,1,"Ao Organics Liquid Sunscreen Tinted",43,24.99,Ounce,4.00,$6.25/oz,$27.99,1,24.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",24.99,23
+529,"Ao Organics",602592828,1,"Ao Organics Sunscreen Stick Med",42,15.99,Ounce,2.00,$8.00/oz,$17.99,1,15.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",15.99,23
+530,"Element Herbs",13964029413,1,"Eh Coconut Sunscreen Stk Spf30",56,10.29,Ounce,0.60,$17.15/oz,$10.29,0,NULL,NULL,NULL,NULL,NULL,23
+531,"Little Hands Hawaii",680201860643,1,"Little Hands Hawaii Sunscreen Original",83,18.99,Ounce,1.00,$18.99/oz,$18.99,0,NULL,NULL,NULL,NULL,NULL,23
+532,"Little Hands Hawaii",680201860636,1,"Little Hands Hawaii Sunscreen Tinted",82,18.99,Ounce,4.00,$4.75/oz,$18.99,0,NULL,NULL,NULL,NULL,NULL,23
+533,"Little Hands Hawaii",852673999477,1,"Little Hands Hawaii Tinted Sunscreen",81,15.49,Ounce,4.00,$3.87/oz,$15.49,0,NULL,NULL,NULL,NULL,NULL,23
+534,"Maui Vera",856930004041,1,"Maui Vera Mineral Sunscreen Spf30",84,24.49,Ounce,6.50,$3.77/oz,$26.99,1,24.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",24.49,23
+535,"Maui Vera",856930004058,1,"Maui Vera Mineral Sunscreen Spf30",84,12.99,Ounce,3.00,$4.33/oz,$14.99,1,12.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",12.99,23
+537,"Hawaiian Tropic",75486089894,1,"Hawaiian Tropic Island Sport Sunscreen, SPF 30",74,12.19,Ounce,6.00,$2.03/oz,$12.19,0,NULL,NULL,NULL,NULL,NULL,23
+538,"Hawaiian Tropic",75486091859,1,"Hawaiian Tropic Silk Hydration Lotion Sunscreen, SPF 30",73,10.99,Ounce,6.00,$1.83/oz,$10.99,0,NULL,NULL,NULL,NULL,NULL,23
+539,"Ao Organics",274145810,1,"Ao Organics Reef Safe Sunscreen Lot",41,27.99,Ounce,4.00,$7.00/oz,$27.99,0,NULL,NULL,NULL,NULL,NULL,23
+540,"Sun Bum",871760001954,1,"Sun Bum Sunscreen Spray, SPF 15",101,22.99,Ounce,6.00,$3.83/oz,$22.99,0,NULL,NULL,NULL,NULL,NULL,23
+541,Neutrogena,86800110804,1,"Neutrogena Sheer Zinc Dry-Touch Sunscreen Broad Spectrum SPF 50",1,19.99,Each,1.00,NULL,$19.99,0,NULL,NULL,NULL,NULL,NULL,23
+542,"Hawaiian Tropic",75486087463,1,"Hawaiian Tropic Sheer Touch Ultra Radiance Lotion Sunscreen SPF 15",58,11.19,Ounce,8.00,$1.40/oz,$11.19,0,NULL,NULL,NULL,NULL,NULL,23
+543,"Banana Boat",79656031867,1,"Banana Boat Sport Performance Sunscreen, SPF 50",2,12.49,Ounce,8.00,$1.56/oz,$12.49,0,NULL,NULL,NULL,NULL,NULL,23
+544,"Banana Boat",79656031799,1,"Banana Boat Sport Sunscreen Spray, SPF 50+",3,12.49,Ounce,6.00,$2.08/oz,$12.49,0,NULL,NULL,NULL,NULL,NULL,23
+545,Eucerin,72140032265,1,"Eucerin Sensitive Mineral Sunscreen Lotion SPF 50",22,20.99,Ounce,4.00,$5.25/oz,$20.99,0,NULL,NULL,NULL,NULL,NULL,23
+546,"Sun Bum",871760001978,1,"Sun Bum Moisturizing Sunscreen Spray, SPF 50",97,18.99,Ounce,6.00,$3.17/oz,$18.99,0,NULL,NULL,NULL,NULL,NULL,23
+547,"Hawaiian Tropic",75486132538,1,"Hawaiian Tropic Mineral Translucent Sunscreen Powder Brush SPF 30",57,21.49,Ounce,0.15,$143.27/oz,$23.99,1,21.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",21.49,23
+548,Neutrogena,86800112945,1,"Neutrogena Neutrogena Sheer Zinc Kids Mineral Sunscreen Broad Spectrum SPF 50+",17,19.59,Ounce,3.00,$6.53/oz,$19.59,0,NULL,NULL,NULL,NULL,NULL,23
+549,Neutrogena,86800110828,1,"Neutrogena Pure & Free Baby Sunscreen Lotion Broad Spectrum SPF 50",4,17.99,Ounce,3.00,$6.00/oz,$17.99,0,NULL,NULL,NULL,NULL,NULL,23
+550,"Banana Boat",79656024326,1,"Banana Boat Baby 100% Mineral Sunscreen Lotion SPF50",5,13.99,Ounce,6.00,$2.33/oz,$15.49,1,13.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.99,23
+551,"Banana Boat",79656024340,1,"Banana Boat Sport Mineral Sunscreen Lotion, SPF 50",47,13.99,Ounce,6.00,$2.33/oz,$15.49,1,13.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.99,23
+552,"Banana Boat",79656049718,1,"Banana Boat Sport Performance Sunscreen Lotion, SPF 30",49,12.19,Ounce,8.00,$1.52/oz,$12.19,0,NULL,NULL,NULL,NULL,NULL,23
+553,"Banana Boat",79656049725,1,"Banana Boat Sport Performance Sunscreen Lotion, SPF 50+",6,12.19,Ounce,8.00,$1.52/oz,$12.19,0,NULL,NULL,NULL,NULL,NULL,23
+554,"Banana Boat",79656031775,1,"Banana Boat Ultra Sport Performance SPF 15 Sunscreen",7,11.49,Ounce,6.00,$1.92/oz,$11.49,0,NULL,NULL,NULL,NULL,NULL,23
+555,"Banana Boat",79656004229,1,"Banana Boat Ultra Sport Performance SPF 30 Sunscreen",48,12.19,Ounce,10.00,$1.22/oz,$12.19,0,NULL,NULL,NULL,NULL,NULL,23
+556,"Banana Boat",79656031782,1,"Banana Boat Ultra Sport Performance Sunscreen, SPF 30",8,12.19,Ounce,6.00,$2.03/oz,$12.19,0,NULL,NULL,NULL,NULL,NULL,23
+557,"Hawaiian Tropic",75486087470,1,"Hawaiian Tropic Sheer Touch Sunscreen Lotion, SPF 30",59,11.19,Ounce,8.00,$1.40/oz,$11.19,0,NULL,NULL,NULL,NULL,NULL,23
+558,"Hawaiian Tropic",75486087609,1,"Hawaiian Tropic Sheer Touch Sunscreen Lotion, SPF 50",60,13.49,Ounce,8.00,$1.69/oz,$13.49,0,NULL,NULL,NULL,NULL,NULL,23
+559,"Sun Bum",871760000339,1,"Sun Bum Travel Size Moisturizing Sunscreen Lotion SPF70",95,13.99,Ounce,3.00,$4.66/oz,$13.99,0,NULL,NULL,NULL,NULL,NULL,23
+560,"Banana Boat",79656044836,1,"Banana Boat Protective Dry Oil Sunscreen with Argan Oil, SPF 15",9,12.19,Ounce,6.00,$2.03/oz,$12.19,0,NULL,NULL,NULL,NULL,NULL,23
+561,"Alba Botanica",724742008253,1,"Alba Botanica Hawaiian Sunscreen Soothing Aloe Vera Spf 30",34,14.99,Ounce,4.00,$3.75/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,23
+562,"Alba Botanica",724742003821,1,"Alba Botanica Sunscreen Active Kids Clear Spray, SPF 50",39,19.99,Ounce,6.00,$3.33/oz,$19.99,0,NULL,NULL,NULL,NULL,NULL,23
+563,"Hawaiian Tropic",75486091125,1,"Hawaiian Tropic Silk Hydration Sunscreen Clear Spray, SPF 30",61,11.99,Ounce,6.00,$2.00/oz,$11.99,0,NULL,NULL,NULL,NULL,NULL,23
+564,"Hawaiian Tropic",75486091132,1,"Hawaiian Tropic Silk Hydration Sunscreen Face Lotion, SPF 30",62,11.19,Ounce,1.70,$6.58/oz,$11.19,0,NULL,NULL,NULL,NULL,NULL,23
+565,Neutrogena,86800110811,1,"Neutrogena Sheer Zinc Face Dry-Touch Sunscreen Broad Spectrum SPF 50 For Sensitive Skin",18,18.49,Ounce,2.00,$9.25/oz,$18.49,0,NULL,NULL,NULL,NULL,NULL,23
+566,"Banana Boat",79656018066,1,"Banana Boat Kids Sport Sunscreen Spray, Broad Spectrum SPF 50+",10,12.49,Ounce,6.00,$2.08/oz,$12.49,0,NULL,NULL,NULL,NULL,NULL,23
+567,Coola,857724008245,1,"Coola Classic Body Organic Sunscreen Lotion SPF 50 - Fragrance Free",54,27.99,Ounce,5.00,$5.60/oz,$27.99,0,NULL,NULL,NULL,NULL,NULL,23
+568,Coola,857724008252,1,"Coola Classic Body Organic Sunscreen Lotion SPF 50 - Guava Mango",53,27.99,Ounce,5.00,$5.60/oz,$27.99,0,NULL,NULL,NULL,NULL,NULL,23
+569,Coola,857724008962,1,"Coola Classic Body Organic Sunscreen Spray SPF 30 - Tropical Coconut",14,24.99,Ounce,6.00,$4.17/oz,$24.99,0,NULL,NULL,NULL,NULL,NULL,23
+570,Coola,857724008986,1,"Coola Classic Body Organic Sunscreen Spray SPF 50 - Fragrance Free",15,24.99,Ounce,6.00,$4.17/oz,$24.99,0,NULL,NULL,NULL,NULL,NULL,23
+571,Coola,857724008979,1,"Coola Classic Body Organic Sunscreen Spray SPF 50 - Guava Mango",16,24.99,Ounce,6.00,$4.17/oz,$24.99,0,NULL,NULL,NULL,NULL,NULL,23
+572,Coola,857724008917,1,"Coola Mineral Body Organic Sunscreen Lotion SPF 30 - Tropical Coconut",55,39.99,Ounce,5.00,$8.00/oz,$39.99,0,NULL,NULL,NULL,NULL,NULL,23
+573,Coola,855011007926,1,"Coola Mineral Body Organic Sunscreen Lotion SPF 50 - Fragrance Free",52,39.99,Ounce,5.00,$8.00/oz,$39.99,0,NULL,NULL,NULL,NULL,NULL,23
+574,Coola,857724008740,1,"Coola Mineral Body Organic Sunscreen Spray SPF 30 - Fragrence Free",51,35.99,Ounce,5.00,$7.20/oz,$35.99,0,NULL,NULL,NULL,NULL,NULL,23
+575,"Hawaiian Tropic",75486087418,1,"Hawaiian Tropic Sunscreen, Lotion, Sheer Touch, Broad Spectrum Spf 8",77,11.99,Ounce,8.00,$1.50/oz,$11.99,0,NULL,NULL,NULL,NULL,NULL,23
+576,Coola,850023528520,1,"Coola Mineral Face Organic Sunscreen Lotion Sheer Matte SPF 30 – Tinted",50,35.99,Ounce,1.70,$21.17/oz,$35.99,0,NULL,NULL,NULL,NULL,NULL,23
+577,Olay,75609002786,1,"Olay Total Effects Moisturizer, Anti-Aging, Fragrance-Free, With Sunscreen, Broad Spectrum Spf 15",86,32.49,Ounce,1.70,$19.11/oz,$32.49,0,NULL,NULL,NULL,NULL,NULL,23
+578,Coppertone,72140028824,1,"Coppertone Pure & Simple Kids SPF 50 Spray",21,14.29,Ounce,5.00,$2.86/oz,$14.29,0,NULL,NULL,NULL,NULL,NULL,23
+579,"Hawaiian Tropic",75486091170,1,"Hawaiian Tropic Everyday Active Lotion SPF 50",63,12.49,Ounce,8.00,$1.56/oz,$12.49,0,NULL,NULL,NULL,NULL,NULL,23
+580,"Hawaiian Tropic",75486089863,1,"Hawaiian Tropic Island Sport Lotion SPF 15",64,11.19,Ounce,8.00,$1.40/oz,$11.19,0,NULL,NULL,NULL,NULL,NULL,23
+581,"Hawaiian Tropic",75486089870,1,"Hawaiian Tropic Island Sport Lotion SPF 30",65,11.99,Ounce,8.00,$1.50/oz,$11.99,0,NULL,NULL,NULL,NULL,NULL,23
+582,"Hawaiian Tropic",75486091507,1,"Hawaiian Tropic Antioxidant Lotion SPF 30",66,11.19,Ounce,6.00,$1.87/oz,$11.19,0,NULL,NULL,NULL,NULL,NULL,23
+583,"Hawaiian Tropic",75486091514,1,"Hawaiian Tropic Antioxidant Lotion, SPF 50",67,12.19,Ounce,6.00,$2.03/oz,$12.19,0,NULL,NULL,NULL,NULL,NULL,23
+584,"Hawaiian Tropic",75486091149,1,"Hawaiian Tropic Everyday Active Clear Spray SPF 50",68,11.99,Ounce,6.00,$2.00/oz,$11.99,0,NULL,NULL,NULL,NULL,NULL,23
+585,"Hawaiian Tropic",75486107901,1,"Hawaiian Tropic Mineral Skin Nourishing Milk for Face SPF 30",78,19.69,Ounce,1.70,$11.58/oz,$19.69,0,NULL,NULL,NULL,NULL,NULL,23
+586,"Hawaiian Tropic",75486112110,1,"Hawaiian Tropic Mineral Skin Nourishing Milk for Face SPF 30",78,17.79,Ounce,3.40,$5.23/oz,$19.69,1,17.79,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",17.79,23
+587,"Sun Bum",871760008137,1,"Sun Bum Mineral Spray SPF 50",100,17.99,Each,1.00,NULL,$19.99,1,17.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",17.99,23
+588,"Hawaiian Tropic",75486112141,1,"Hawaiian Tropic Mineral Skin Nourishing Milk SPF 50",69,19.49,Ounce,3.40,$5.73/oz,$21.49,1,19.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",19.49,23
+589,"Sun Bum",871760002975,1,"Sun Bum Face Lotion, SPF 50",99,18.99,Ounce,3.00,$6.33/oz,$18.99,0,NULL,NULL,NULL,NULL,NULL,23
+590,"Hawaiian Tropic",75486091866,1,"Hawaiian Tropic Silk Hydration Weightless Lotion SPF 50",70,12.49,Ounce,6.00,$2.08/oz,$12.49,0,NULL,NULL,NULL,NULL,NULL,23
+591,"Hawaiian Tropic",75486091927,1,"Hawaiian Tropic Silk Hydration Weightless Continuous Spray SPF 50",71,12.19,Ounce,6.00,$2.03/oz,$12.19,0,NULL,NULL,NULL,NULL,NULL,23
+592,"Sun Bum",871760007727,1,"Sun Bum Mineral Lotion Face SPF 30",90,24.99,Each,1.00,NULL,$24.99,0,NULL,NULL,NULL,NULL,NULL,23
+593,"Sun Bum",871760008144,1,"Sun Bum Mineral Lotion SPF 30",91,20.99,Each,1.00,NULL,$20.99,0,NULL,NULL,NULL,NULL,NULL,23
+594,"Sun Bum",871760007666,1,"Sun Bum Baby Spray SPF 50",92,19.99,Ounce,1.00,$19.99/oz,$19.99,0,NULL,NULL,NULL,NULL,NULL,23
+595,Aveeno,381371164509,1,"Aveeno Baby Lotion SPF50 Sensitive Skin",44,15.79,Ounce,3.00,$5.26/oz,$17.49,1,15.79,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",15.79,23
+596,"Banana Boat",79656046649,1,"Banana Boat Sport Ultra Lip Balm, SPF 50",19,3.29,Ounce,0.15,$21.93/oz,$3.29,0,NULL,NULL,NULL,NULL,NULL,23
+597,"Banana Boat",79656024692,1,"Banana Boat Kids Sport Stick SPF 50",11,7.99,Ounce,0.50,$15.98/oz,$7.99,0,NULL,NULL,NULL,NULL,NULL,23
+598,"Banana Boat",79656016819,1,"Banana Boat Kid's Sport Lotion, SPF 50",12,13.19,Ounce,6.00,$2.20/oz,$14.69,1,13.19,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.19,23
+599,"Hawaiian Tropic",75486132309,1,"Hawaiian Tropic Lip Balm SPF30",80,3.29,Ounce,0.15,$21.93/oz,$3.29,0,NULL,NULL,NULL,NULL,NULL,23
+600,"Sol Remedies",7191995160,1,"Sol Remedies Sunscreen Reef Safe",88,16.99,Ounce,4.00,$4.25/oz,$19.99,1,16.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",16.99,39
+601,"Alba Botanica",724742004040,1,"Alba Mineral Sunscreen Spf35",35,19.99,Ounce,6.00,$3.33/oz,$19.99,0,NULL,NULL,NULL,NULL,NULL,39
+602,"Sun Bum",871760000322,1,"Sun Bum Original SPF 50 Sunscreen Lotion",102,13.99,Ounce,3.00,$4.66/oz,$13.99,0,NULL,NULL,NULL,NULL,NULL,39
+603,"Hawaiian Tropic",75486091828,1,"Hawaiian Tropic Sunscreen Mist, Antioxidant+, SPF 30",76,10.99,Ounce,3.40,$3.23/oz,$10.99,0,NULL,NULL,NULL,NULL,NULL,39
+604,"Sun Bum",871760001923,1,"Sun Bum Original SPF 15 Sunscreen Lotion",104,22.99,Ounce,8.00,$2.87/oz,$22.99,0,NULL,NULL,NULL,NULL,NULL,39
+605,"Sun Bum",871760001930,1,"Sun Bum Original SPF 30 Sunscreen Lotion",103,22.99,Ounce,8.00,$2.87/oz,$22.99,0,NULL,NULL,NULL,NULL,NULL,39
+606,"Sun Bum",871760001947,1,"Sun Bum Original SPF 50 Sunscreen Lotion",102,22.99,Ounce,8.00,$2.87/oz,$22.99,0,NULL,NULL,NULL,NULL,NULL,39
+607,"Sun Bum",871760002098,1,"Sun Bum Original SPF 70 Sunscreen Lotion",98,22.99,Ounce,8.00,$2.87/oz,$22.99,0,NULL,NULL,NULL,NULL,NULL,39
+608,"Little Hands Hawaii",680201860643,1,"Little Hands Hawaii Sunscreen Original",83,18.99,Ounce,1.00,$18.99/oz,$18.99,0,NULL,NULL,NULL,NULL,NULL,39
+609,"Little Hands Hawaii",680201860636,1,"Little Hands Hawaii Sunscreen Tinted",82,18.99,Ounce,4.00,$4.75/oz,$18.99,0,NULL,NULL,NULL,NULL,NULL,39
+610,"Little Hands Hawaii",852673999477,1,"Little Hands Hawaii Tinted Sunscreen",81,13.49,Ounce,4.00,$3.37/oz,$15.49,1,13.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.49,39
+611,"Maui Vera",856930004041,1,"Maui Vera Mineral Sunscreen Spf30",84,24.49,Ounce,6.50,$3.77/oz,$26.99,1,24.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",24.49,39
+612,"Maui Vera",856930004058,1,"Maui Vera Mineral Sunscreen Spf30",84,12.99,Ounce,3.00,$4.33/oz,$14.99,1,12.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",12.99,39
+613,"Hawaiian Tropic",75486089894,1,"Hawaiian Tropic Island Sport Sunscreen, SPF 30",74,12.19,Ounce,6.00,$2.03/oz,$12.19,0,NULL,NULL,NULL,NULL,NULL,39
+614,"Hawaiian Tropic",75486091859,1,"Hawaiian Tropic Silk Hydration Lotion Sunscreen, SPF 30",73,10.99,Ounce,6.00,$1.83/oz,$10.99,0,NULL,NULL,NULL,NULL,NULL,39
+615,"Sun Bum",871760001954,1,"Sun Bum Sunscreen Spray, SPF 15",101,22.99,Ounce,6.00,$3.83/oz,$22.99,0,NULL,NULL,NULL,NULL,NULL,39
+616,"Hawaiian Tropic",75486087463,1,"Hawaiian Tropic Sheer Touch Ultra Radiance Lotion Sunscreen SPF 15",58,11.19,Ounce,8.00,$1.40/oz,$11.19,0,NULL,NULL,NULL,NULL,NULL,39
+617,"Banana Boat",79656031867,1,"Banana Boat Sport Performance Sunscreen, SPF 50",2,12.49,Ounce,8.00,$1.56/oz,$12.49,0,NULL,NULL,NULL,NULL,NULL,39
+618,"Banana Boat",79656031799,1,"Banana Boat Sport Sunscreen Spray, SPF 50+",3,12.49,Ounce,6.00,$2.08/oz,$12.49,0,NULL,NULL,NULL,NULL,NULL,39
+619,"Sun Bum",871760001978,1,"Sun Bum Moisturizing Sunscreen Spray, SPF 50",97,22.99,Ounce,6.00,$3.83/oz,$22.99,0,NULL,NULL,NULL,NULL,NULL,39
+620,"Hawaiian Tropic",75486132538,1,"Hawaiian Tropic Mineral Translucent Sunscreen Powder Brush SPF 30",57,21.49,Ounce,0.15,$143.27/oz,$23.99,1,21.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",21.49,39
+621,"Alba Botanica",724742003890,1,"Alba Botanica Sunscreen, Sensitive Mineral Protection Spf 30",36,16.29,Ounce,4.00,$4.07/oz,$16.29,0,NULL,NULL,NULL,NULL,NULL,39
+622,"Banana Boat",79656024326,1,"Banana Boat Baby 100% Mineral Sunscreen Lotion SPF50",5,13.99,Ounce,6.00,$2.33/oz,$15.49,1,13.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.99,39
+623,"Banana Boat",79656024340,1,"Banana Boat Sport Mineral Sunscreen Lotion, SPF 50",47,13.99,Ounce,6.00,$2.33/oz,$15.49,1,13.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.99,39
+624,"Banana Boat",79656049718,1,"Banana Boat Sport Performance Sunscreen Lotion, SPF 30",49,12.19,Ounce,8.00,$1.52/oz,$12.19,0,NULL,NULL,NULL,NULL,NULL,39
+625,"Banana Boat",79656049725,1,"Banana Boat Sport Performance Sunscreen Lotion, SPF 50+",6,12.19,Ounce,8.00,$1.52/oz,$12.19,0,NULL,NULL,NULL,NULL,NULL,39
+626,"Banana Boat",79656031775,1,"Banana Boat Ultra Sport Performance SPF 15 Sunscreen",7,11.49,Ounce,6.00,$1.92/oz,$11.49,0,NULL,NULL,NULL,NULL,NULL,39
+627,"Banana Boat",79656004229,1,"Banana Boat Ultra Sport Performance SPF 30 Sunscreen",48,12.19,Ounce,10.00,$1.22/oz,$12.19,0,NULL,NULL,NULL,NULL,NULL,39
+628,"Banana Boat",79656031782,1,"Banana Boat Ultra Sport Performance Sunscreen, SPF 30",8,12.19,Ounce,6.00,$2.03/oz,$12.19,0,NULL,NULL,NULL,NULL,NULL,39
+629,"Hawaiian Tropic",75486087470,1,"Hawaiian Tropic Sheer Touch Sunscreen Lotion, SPF 30",59,11.19,Ounce,8.00,$1.40/oz,$11.19,0,NULL,NULL,NULL,NULL,NULL,39
+630,"Hawaiian Tropic",75486087609,1,"Hawaiian Tropic Sheer Touch Sunscreen Lotion, SPF 50",60,12.49,Ounce,8.00,$1.56/oz,$12.49,0,NULL,NULL,NULL,NULL,NULL,39
+631,"Sun Bum",871760000339,1,"Sun Bum Travel Size Moisturizing Sunscreen Lotion SPF70",95,13.99,Ounce,3.00,$4.66/oz,$13.99,0,NULL,NULL,NULL,NULL,NULL,39
+632,"Banana Boat",79656044836,1,"Banana Boat Protective Dry Oil Sunscreen with Argan Oil, SPF 15",9,12.19,Ounce,6.00,$2.03/oz,$12.19,0,NULL,NULL,NULL,NULL,NULL,39
+633,"Alba Botanica",724742008253,1,"Alba Botanica Hawaiian Sunscreen Soothing Aloe Vera Spf 30",34,14.99,Ounce,4.00,$3.75/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,39
+634,"Alba Botanica",724742008277,1,"Alba Botanica Hawaiian Sunscreen, Revitalizing Green Tea Spf 45",37,14.99,Ounce,4.00,$3.75/oz,$14.99,0,NULL,NULL,NULL,NULL,NULL,39
+635,"Banana Boat",79656013320,1,"Banana Boat Ultra Sport Clear Sunscreen Spray, SPF 50+",20,21.99,Ounce,12.00,$1.83/oz,$21.99,0,NULL,NULL,NULL,NULL,NULL,39
+636,"Hawaiian Tropic",75486091125,1,"Hawaiian Tropic Silk Hydration Sunscreen Clear Spray, SPF 30",61,11.99,Ounce,6.00,$2.00/oz,$11.99,0,NULL,NULL,NULL,NULL,NULL,39
+637,"Hawaiian Tropic",75486091132,1,"Hawaiian Tropic Silk Hydration Sunscreen Face Lotion, SPF 30",62,11.19,Ounce,1.70,$6.58/oz,$11.19,0,NULL,NULL,NULL,NULL,NULL,39
+638,"Banana Boat",79656018066,1,"Banana Boat Kids Sport Sunscreen Spray, Broad Spectrum SPF 50+",10,12.49,Ounce,6.00,$2.08/oz,$12.49,0,NULL,NULL,NULL,NULL,NULL,39
+639,Coola,857724008245,1,"Coola Classic Body Organic Sunscreen Lotion SPF 50 - Fragrance Free",54,27.99,Ounce,5.00,$5.60/oz,$27.99,0,NULL,NULL,NULL,NULL,NULL,39
+640,Coola,857724008252,1,"Coola Classic Body Organic Sunscreen Lotion SPF 50 - Guava Mango",53,27.99,Ounce,5.00,$5.60/oz,$27.99,0,NULL,NULL,NULL,NULL,NULL,39
+641,Coola,857724008962,1,"Coola Classic Body Organic Sunscreen Spray SPF 30 - Tropical Coconut",14,24.99,Ounce,6.00,$4.17/oz,$24.99,0,NULL,NULL,NULL,NULL,NULL,39
+642,Coola,857724008986,1,"Coola Classic Body Organic Sunscreen Spray SPF 50 - Fragrance Free",15,24.99,Ounce,6.00,$4.17/oz,$24.99,0,NULL,NULL,NULL,NULL,NULL,39
+643,Coola,857724008917,1,"Coola Mineral Body Organic Sunscreen Lotion SPF 30 - Tropical Coconut",55,39.99,Ounce,5.00,$8.00/oz,$39.99,0,NULL,NULL,NULL,NULL,NULL,39
+644,Coola,855011007926,1,"Coola Mineral Body Organic Sunscreen Lotion SPF 50 - Fragrance Free",52,39.99,Ounce,5.00,$8.00/oz,$39.99,0,NULL,NULL,NULL,NULL,NULL,39
+645,Coola,857724008740,1,"Coola Mineral Body Organic Sunscreen Spray SPF 30 - Fragrence Free",51,35.99,Ounce,5.00,$7.20/oz,$35.99,0,NULL,NULL,NULL,NULL,NULL,39
+646,"Hawaiian Tropic",75486087418,1,"Hawaiian Tropic Sunscreen, Lotion, Sheer Touch, Broad Spectrum Spf 8",77,11.99,Ounce,8.00,$1.50/oz,$11.99,0,NULL,NULL,NULL,NULL,NULL,39
+647,"Sun Bum",871760003842,1,"Sun Bum Day Tripper 3pk",105,23.99,Each,3.00,"$8.00 each",$23.99,0,NULL,NULL,NULL,NULL,NULL,39
+648,"Hawaiian Tropic",75486091170,1,"Hawaiian Tropic Everyday Active Lotion SPF 50",63,12.49,Ounce,8.00,$1.56/oz,$12.49,0,NULL,NULL,NULL,NULL,NULL,39
+649,"Hawaiian Tropic",75486089863,1,"Hawaiian Tropic Island Sport Lotion SPF 15",64,11.19,Ounce,8.00,$1.40/oz,$11.19,0,NULL,NULL,NULL,NULL,NULL,39
+650,"Hawaiian Tropic",75486089870,1,"Hawaiian Tropic Island Sport Lotion SPF 30",65,11.99,Ounce,8.00,$1.50/oz,$11.99,0,NULL,NULL,NULL,NULL,NULL,39
+651,"Hawaiian Tropic",75486091507,1,"Hawaiian Tropic Antioxidant Lotion SPF 30",66,11.19,Ounce,6.00,$1.87/oz,$11.19,0,NULL,NULL,NULL,NULL,NULL,39
+652,"Hawaiian Tropic",75486091514,1,"Hawaiian Tropic Antioxidant Lotion, SPF 50",67,12.19,Ounce,6.00,$2.03/oz,$12.19,0,NULL,NULL,NULL,NULL,NULL,39
+653,"Hawaiian Tropic",75486091149,1,"Hawaiian Tropic Everyday Active Clear Spray SPF 50",68,11.99,Ounce,6.00,$2.00/oz,$11.99,0,NULL,NULL,NULL,NULL,NULL,39
+654,"Hawaiian Tropic",75486107901,1,"Hawaiian Tropic Mineral Skin Nourishing Milk for Face SPF 30",78,19.69,Ounce,1.70,$11.58/oz,$19.69,0,NULL,NULL,NULL,NULL,NULL,39
+655,"Hawaiian Tropic",75486112110,1,"Hawaiian Tropic Mineral Skin Nourishing Milk for Face SPF 30",78,17.79,Ounce,3.40,$5.23/oz,$19.69,1,17.79,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",17.79,39
+656,"Sun Bum",871760008137,1,"Sun Bum Mineral Spray SPF 50",100,17.99,Each,1.00,NULL,$19.99,1,17.99,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",17.99,39
+657,"Hawaiian Tropic",75486112141,1,"Hawaiian Tropic Mineral Skin Nourishing Milk SPF 50",69,19.49,Ounce,3.40,$5.73/oz,$21.49,1,19.49,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",19.49,39
+658,"Sun Bum",871760002975,1,"Sun Bum Face Lotion, SPF 50",99,18.99,Ounce,3.00,$6.33/oz,$18.99,0,NULL,NULL,NULL,NULL,NULL,39
+659,"Hawaiian Tropic",75486091866,1,"Hawaiian Tropic Silk Hydration Weightless Lotion SPF 50",70,12.49,Ounce,6.00,$2.08/oz,$12.49,0,NULL,NULL,NULL,NULL,NULL,39
+660,"Hawaiian Tropic",75486091927,1,"Hawaiian Tropic Silk Hydration Weightless Continuous Spray SPF 50",71,12.19,Ounce,6.00,$2.03/oz,$12.19,0,NULL,NULL,NULL,NULL,NULL,39
+661,"Sun Bum",871760007727,1,"Sun Bum Mineral Lotion Face SPF 30",90,24.99,Each,1.00,NULL,$24.99,0,NULL,NULL,NULL,NULL,NULL,39
+662,"Sun Bum",871760008144,1,"Sun Bum Mineral Lotion SPF 30",91,20.99,Each,1.00,NULL,$20.99,0,NULL,NULL,NULL,NULL,NULL,39
+663,"Sun Bum",871760007666,1,"Sun Bum Baby Spray SPF 50",92,15.99,Ounce,1.00,$15.99/oz,$15.99,0,NULL,NULL,NULL,NULL,NULL,39
+664,"Banana Boat",79656046649,1,"Banana Boat Sport Ultra Lip Balm, SPF 50",19,3.29,Ounce,0.15,$21.93/oz,$3.29,0,NULL,NULL,NULL,NULL,NULL,39
+665,"Banana Boat",79656016819,1,"Banana Boat Kid's Sport Lotion, SPF 50",12,13.19,Ounce,6.00,$2.20/oz,$14.69,1,13.19,"Maika`i Member Price","2023-04-05 10:00:00","2023-04-12 09:59:59",13.19,39
+666,"Hawaiian Tropic",75486132309,1,"Hawaiian Tropic Lip Balm SPF30",80,3.29,Ounce,0.15,$21.93/oz,$3.29,0,NULL,NULL,NULL,NULL,NULL,39
+667,"Hawaiian Tropic",75486089658,1,"Hawaiian Tropic Tanning Dry Oil Continuous Spray SPF 30",75,12.19,Ounce,6.00,$2.03/oz,$12.19,0,NULL,NULL,NULL,NULL,NULL,39
