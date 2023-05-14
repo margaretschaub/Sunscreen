@@ -1,5 +1,6 @@
 from fuzzywuzzy import fuzz, process
 import pandas as pd
+from import_export_file import output_file_path
 
 
 def read_csv(file_name):
@@ -29,9 +30,27 @@ def match_names(file_1, file_2, table, output_file):
     table.to_csv(output_file)
 
 
+def input_grocery_file():
+    while True:
+        try:
+            grocery_file = input("Grocery inventory csv hard coded path: ")
+            return grocery_file
+        except FileNotFoundError:
+            print("No such file or directory. Please try again.")
+
+
+def input_product_file():
+    while True:
+        try:
+            product_file = input("Product csv hard coded path: ")
+            return product_file
+        except FileNotFoundError:
+            print("No such file or directory. Please try again.")
+
+
 def main():
-    grocery_file = r'/Users/margaretschaub/Desktop/foodland_needs_match.csv'
-    product_file = r'/Users/margaretschaub/Desktop/master_products.csv'
+    grocery_file = input_grocery_file()
+    product_file = input_product_file()
 
     foodland_df = read_csv(grocery_file)
     product_df = read_csv(product_file)
@@ -39,7 +58,7 @@ def main():
     foodland_name_list = foodland_df['foodland_name'].tolist()  # file 1
     product_name_list = product_df['item_name'].tolist()  # file 2
 
-    output_file = r'/Users/margaretschaub/Desktop/foodlandsunscreen_matches.csv'
+    output_file = output_file_path()
     match_names(foodland_name_list, product_name_list, foodland_df, output_file)
 
 

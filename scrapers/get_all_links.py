@@ -42,5 +42,10 @@ def create_list_of_links(starting_url):
     return links
 
 
-if __name__ == "__main__":
+def main():
     print(create_list_of_links('https://shop.foodland.com/sm/pickup/rsid/50/results?q=sunscreen&page=1&skip=0'))
+
+
+if __name__ == "__main__":
+    main()
+

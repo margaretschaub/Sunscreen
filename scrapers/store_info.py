@@ -2,9 +2,10 @@ from bs4 import BeautifulSoup as bs
 import pandas as pd
 import requests
 import json
+from import_export_file import output_file_path
 
 
-def get_store_id(url):
+def get_store_id(url, output_file):
     r = requests.get(url)
     soup = bs(r.content, "lxml")
 
@@ -26,15 +27,21 @@ def get_store_id(url):
         city = item['city']
         longitude = item['location']['longitude']
         latitude = item['location']['latitude']
-        coordinate = longitude,latitude
+        coordinate = longitude, latitude
         store_id = [retailer_store_id, name, address_line1, address_line2, state, post_code, city, coordinate]
         retailer_store_id_list.append(store_id)
 
-    df = pd.DataFrame(retailer_store_id_list, columns=['retailer_store_id','store_name','address_line1','address_line2',
-                                                       'state','post_code', 'city', 'coordinate'])
+    df = pd.DataFrame(retailer_store_id_list, columns=['retailer_store_id', 'store_name', 'address_line1',
+                                                       'address_line2',
+                                                       'state', 'post_code', 'city', 'coordinate'])
 
-    df.to_csv(r'/Users/margaretschaub/Desktop/foodland_store_details.csv')
+    df.to_csv(output_file)
+
+
+def main():
+    output = output_file_path()
+    get_store_id('https://shop.foodland.com/sm/pickup/rsid/11/results?q=sunscreen', output)
 
 
 if __name__ == "__main__":
-    print(get_store_id('https://shop.foodland.com/sm/pickup/rsid/11/results?q=sunscreen'))
+    main()

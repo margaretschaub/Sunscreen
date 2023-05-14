@@ -1,6 +1,6 @@
 import os
-
 import pandas as pd
+from import_export_file import output_file_path, input_file_path
 
 
 def merge_csv_files(file_path, output_file_location):
@@ -23,5 +23,6 @@ def merge_csv_files(file_path, output_file_location):
 
 
 if __name__ == "__main__":
-    merge_csv_files(r'/Users/margaretschaub/Desktop/merge_files',
-                    r'/Users/margaretschaub/Desktop/sunscreen_merged.csv')
+    input_path = input_file_path()
+    output_path = output_file_path()
+    merge_csv_files(input_path, output_path)

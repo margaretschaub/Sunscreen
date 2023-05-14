@@ -1,4 +1,5 @@
 import pandas as pd
+from import_export_file import output_file_path, input_file_path
 
 banned_ingredients = ['oxybenzone', 'octinoxate']
 
@@ -42,5 +43,6 @@ def reef_safe_test(input_csv_path, output_csv_path):
 
 
 if __name__ == "__main__":
-    reef_safe_test(r'/Users/margaretschaub/Desktop/sunscreen_merged.csv',
-                   r'/Users/margaretschaub/Desktop/reef_safe_determination.csv')
+    input_path = input_file_path()
+    output_path = output_file_path()
+    reef_safe_test(input_path, output_path)

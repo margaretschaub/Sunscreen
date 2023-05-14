@@ -20,5 +20,9 @@ def get_store_id(url):
     return retailer_store_id_list
 
 
-if __name__ == "__main__":
+def main():
     print(get_store_id('https://shop.foodland.com/sm/pickup/rsid/11/results?q=sunscreen'))
+
+
+if __name__ == "__main__":
+    main()

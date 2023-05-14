@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup as bs
 import requests
 import re
 import pandas as pd
+from import_export_file import output_file_path
 
 
 def generate_links_list():
@@ -42,7 +43,8 @@ def scrape_ingredients(links_list):
     return df
 
 
-def main(output_csv_name):
+def main():
+    output_csv_name = output_file_path()
     links_list = generate_links_list()
     df = scrape_ingredients(links_list)
     df.to_csv(output_csv_name)
@@ -50,4 +52,4 @@ def main(output_csv_name):
 
 
 if __name__ == "__main__":
-    main(r'/Users/margaretschaub/Desktop/hawaiian_tropic.csv')
+    main()

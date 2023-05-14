@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup as bs
 import requests
 import re
 import pandas as pd
+from import_export_file import output_file_path
 
 
 def generate_links_list(url):
@@ -41,12 +42,14 @@ def scrape_ingredients(links_list):
     return df
 
 
-def main(initial_url, output_csv_name):
+def main():
+    initial_url = 'https://www.sunbum.com/collections/sun-care-all'
     links_list = generate_links_list(initial_url)
     df = scrape_ingredients(links_list)
-    df.to_csv(output_csv_name)
+    output = output_file_path()
+    df.to_csv(output)
     print('Export to CSV successful')
 
 
 if __name__ == "__main__":
-    main('https://www.sunbum.com/collections/sun-care-all', r'/Users/margaretschaub/Desktop/sun_bum.csv')
+    main()

@@ -1,12 +1,18 @@
 import pandas as pd
 import mysql.connector as msql
 from mysql.connector import Error
+from import_export_file import input_file_path
+
+
+def password():
+    password = input("Please enter MySQL Password: ")
+    return password
 
 
 def sql_commit(dataframe, sql_statement):
     try:
         conn = msql.connect(host='localhost', user='root',
-                            password='')
+                            password=password())
         if conn.is_connected():
             cursor = conn.cursor()
             cursor.execute("USE sunscreen;")
@@ -29,14 +35,16 @@ def load_foodland_info():
     sql = '''INSERT IGNORE INTO retailer_stores (retailer_store_id, store_name,
     address_line1,address_line2, state, post_code, city, coordinate)
     VALUES(%s, %s, %s, %s, %s ,%s, %s, %s);'''
-    foodland_info = clean_df(r'/Users/margaretschaub/Desktop/foodland_store_details.csv')
+    foodland_csv = input_file_path()
+    foodland_info = clean_df(foodland_csv)
     sql_commit(foodland_info, sql)
 
 
 def load_products():
     sql = '''INSERT IGNORE INTO products (url, item_name,
     ingredients, reef_safe_determination) VALUES (%s,%s,%s,%s)'''
-    products_df = clean_df(r'/Users/margaretschaub/Desktop/reef_safe_determination.csv')
+    products_csv = input_file_path()
+    products_df = clean_df(products_csv)
     products_df = products_df.astype(object).where(pd.notnull(products_df), None).tail(-1)
     sql_commit(products_df, sql)
 
@@ -44,7 +52,8 @@ def load_products():
 def load_product_matches():
     sql = '''INSERT IGNORE INTO product_matches (brand,foodland_name, product_name)
     VALUES (%s,%s,%s)'''
-    product_match_df = clean_df(r'/Users/margaretschaub/Desktop/foodlandsunscreen_matches.csv')
+    product_match_csv = input_file_path()
+    product_match_df = clean_df(product_match_csv)
     product_match_df = product_match_df.astype(object).where(pd.notnull(product_match_df), None)
     sql_commit(product_match_df, sql)
 
@@ -65,7 +74,8 @@ def load_inventory():
                 effective_until,
                 whole_price,
                 retailer_store_id) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)'''
-    inventory_df = clean_df(r'/Users/margaretschaub/Desktop/foodland_sunscreen2.csv')
+    inventory_csv = input_file_path()
+    inventory_df = clean_df(inventory_csv)
     inventory_df = inventory_df.astype(object).where(pd.notnull(inventory_df), None)
     sql_commit(inventory_df, sql)
 

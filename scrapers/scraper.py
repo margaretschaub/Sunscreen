@@ -4,6 +4,7 @@ import json
 import pandas as pd
 
 from scrapers.get_all_links import create_list_of_links
+from import_export_file import output_file_path
 
 
 def export_csv(links, output_file):
@@ -67,7 +68,8 @@ def export_csv(links, output_file):
 def main():
     list_of_links = \
         create_list_of_links('https://shop.foodland.com/sm/pickup/rsid/50/results?q=sunscreen&page=1&skip=0')
-    export_csv(list_of_links, r'/Users/margaretschaub/Desktop/foodland_sunscreen2.csv')
+    output = output_file_path()
+    export_csv(list_of_links, output)
 
 
 if __name__ == "__main__":
