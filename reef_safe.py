@@ -42,7 +42,11 @@ def reef_safe_test(input_csv_path, output_csv_path):
     print("CSV exported")
 
 
-if __name__ == "__main__":
+def main():
     input_path = input_file_path()
     output_path = output_file_path()
     reef_safe_test(input_path, output_path)
+
+
+if __name__ == "__main__":
+    main()

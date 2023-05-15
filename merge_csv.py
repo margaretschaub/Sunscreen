@@ -22,7 +22,11 @@ def merge_csv_files(file_path, output_file_location):
     df_append.to_csv(output_file_location)
 
 
-if __name__ == "__main__":
+def main():
     input_path = input_file_path()
     output_path = output_file_path()
     merge_csv_files(input_path, output_path)
+
+
+if __name__ == "__main__":
+    main()
