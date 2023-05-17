@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-from import_export_file import output_file_path, input_file_path
+from scrapers.import_export_file import arg_1, arg_2
 
 
 def merge_csv_files(file_path, output_file_location):
@@ -23,8 +23,8 @@ def merge_csv_files(file_path, output_file_location):
 
 
 def main():
-    input_path = input_file_path()
-    output_path = output_file_path()
+    input_path = arg_1()
+    output_path = arg_2()
     merge_csv_files(input_path, output_path)
 
 

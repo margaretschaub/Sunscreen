@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup as bs
 import requests
 import pandas as pd
-from import_export_file import output_file_path
+from import_export_file import arg_1
 
 
 def generate_links_list(url):
@@ -43,7 +43,7 @@ def scrape_ingredients(links_list):
 
 def main():
     initial_url = 'https://littlehandshawaii.com'
-    output_csv_name = output_file_path()
+    output_csv_name = arg_1()
     links_list = generate_links_list(initial_url)
     df = scrape_ingredients(links_list)
     df.to_csv(output_csv_name)

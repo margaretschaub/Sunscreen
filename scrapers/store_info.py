@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup as bs
 import pandas as pd
 import requests
 import json
-from import_export_file import output_file_path
+from scrapers.import_export_file import arg_1
 
 
 def get_store_id(url, output_file):
@@ -39,7 +39,7 @@ def get_store_id(url, output_file):
 
 
 def main():
-    output = output_file_path()
+    output = arg_1()
     get_store_id('https://shop.foodland.com/sm/pickup/rsid/11/results?q=sunscreen', output)
 
 

@@ -1,6 +1,6 @@
 from fuzzywuzzy import fuzz, process
 import pandas as pd
-from import_export_file import output_file_path
+from scrapers.import_export_file import arg_1, arg_2, arg_3
 
 
 def read_csv(file_name):
@@ -30,27 +30,9 @@ def match_names(file_1, file_2, table, output_file):
     table.to_csv(output_file)
 
 
-def input_grocery_file():
-    while True:
-        try:
-            grocery_file = input("Grocery inventory csv hard coded path: ")
-            return grocery_file
-        except FileNotFoundError:
-            print("No such file or directory. Please try again.")
-
-
-def input_product_file():
-    while True:
-        try:
-            product_file = input("Product csv hard coded path: ")
-            return product_file
-        except FileNotFoundError:
-            print("No such file or directory. Please try again.")
-
-
 def main():
-    grocery_file = input_grocery_file()
-    product_file = input_product_file()
+    product_file = arg_1()
+    grocery_file = arg_2()
 
     foodland_df = read_csv(grocery_file)
     product_df = read_csv(product_file)
@@ -58,7 +40,7 @@ def main():
     foodland_name_list = foodland_df['foodland_name'].tolist()  # file 1
     product_name_list = product_df['item_name'].tolist()  # file 2
 
-    output_file = output_file_path()
+    output_file = arg_3()
     match_names(foodland_name_list, product_name_list, foodland_df, output_file)
 
 

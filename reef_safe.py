@@ -1,5 +1,5 @@
 import pandas as pd
-from import_export_file import output_file_path, input_file_path
+from scrapers.import_export_file import arg_1, arg_2
 
 banned_ingredients = ['oxybenzone', 'octinoxate']
 
@@ -43,8 +43,8 @@ def reef_safe_test(input_csv_path, output_csv_path):
 
 
 def main():
-    input_path = input_file_path()
-    output_path = output_file_path()
+    input_path = arg_1()
+    output_path = arg_2()
     reef_safe_test(input_path, output_path)
 
 

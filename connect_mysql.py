@@ -1,18 +1,13 @@
 import pandas as pd
 import mysql.connector as msql
 from mysql.connector import Error
-from import_export_file import input_file_path
-
-
-def password():
-    password = input("Please enter MySQL Password: ")
-    return password
+import sys
 
 
 def sql_commit(dataframe, sql_statement):
     try:
         conn = msql.connect(host='localhost', user='root',
-                            password=password())
+                            password=sys.argv[2])
         if conn.is_connected():
             cursor = conn.cursor()
             cursor.execute("USE sunscreen;")
@@ -35,7 +30,7 @@ def load_foodland_info():
     sql = '''INSERT IGNORE INTO retailer_stores (retailer_store_id, store_name,
     address_line1,address_line2, state, post_code, city, coordinate)
     VALUES(%s, %s, %s, %s, %s ,%s, %s, %s);'''
-    foodland_csv = input_file_path()
+    foodland_csv = sys.argv[3]
     foodland_info = clean_df(foodland_csv)
     sql_commit(foodland_info, sql)
 
@@ -43,7 +38,7 @@ def load_foodland_info():
 def load_products():
     sql = '''INSERT IGNORE INTO products (url, item_name,
     ingredients, reef_safe_determination) VALUES (%s,%s,%s,%s)'''
-    products_csv = input_file_path()
+    products_csv = sys.argv[3]
     products_df = clean_df(products_csv)
     products_df = products_df.astype(object).where(pd.notnull(products_df), None).tail(-1)
     sql_commit(products_df, sql)
@@ -52,7 +47,7 @@ def load_products():
 def load_product_matches():
     sql = '''INSERT IGNORE INTO product_matches (brand,foodland_name, product_name)
     VALUES (%s,%s,%s)'''
-    product_match_csv = input_file_path()
+    product_match_csv = sys.argv[3]
     product_match_df = clean_df(product_match_csv)
     product_match_df = product_match_df.astype(object).where(pd.notnull(product_match_df), None)
     sql_commit(product_match_df, sql)
@@ -74,17 +69,27 @@ def load_inventory():
                 effective_until,
                 whole_price,
                 retailer_store_id) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)'''
-    inventory_csv = input_file_path()
+    inventory_csv = sys.argv[3]
     inventory_df = clean_df(inventory_csv)
     inventory_df = inventory_df.astype(object).where(pd.notnull(inventory_df), None)
     sql_commit(inventory_df, sql)
 
 
+def specify_table_to_load():
+    if sys.argv[1] == "products":
+        load_products()
+    elif sys.argv[1] == "inventory":
+        load_inventory()
+    elif sys.argv[1] == "matches":
+        load_product_matches()
+    elif sys.argv[1] == "store":
+        load_foodland_info()
+    elif sys.argv[1] == "--help":
+        print("You need help")
+
+
 def main():
-    load_products()
-    load_foodland_info()
-    load_inventory()
-    load_product_matches()
+    specify_table_to_load()
 
 
 if __name__ == "__main__":
