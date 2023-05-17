@@ -1,7 +1,8 @@
 ''' Sunscreen
 Usage:
-docopt.py scrape <brand> to <name>
+docopt.py scrape <brand>
 docopt.py create <folder>
+docopt.py name <name>
 docopt.py merge products
 docopt.py test reef safe
 docopt.py string matching
@@ -24,5 +25,16 @@ Options:
 from docopt import docopt
 
 
-brand = args['<brand>']
-name = args['<name>']
+def main():
+    args = docopt(__doc__, version='0.1')
+    name = args['<name>']
+    brand = args['<brand>']
+
+    if args['scrape']:
+        if brand.lower() == 'sunbum':
+            print("1")
+
+
+
+if __name__=='__main__':
+    main()
