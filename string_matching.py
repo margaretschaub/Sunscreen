@@ -1,6 +1,6 @@
 from fuzzywuzzy import fuzz, process
 import pandas as pd
-from scrapers.import_export_file import arg_1, arg_2, arg_3
+import docopt
 
 
 def read_csv(file_name):
@@ -30,9 +30,23 @@ def match_names(file_1, file_2, table, output_file):
     table.to_csv(output_file)
 
 
+usage = ''' 
+Usage: 
+string_matching.py [options] <product> <grocery> <name>
+
+Arguments:
+product    product details csv file
+grocery     grocery inventory csv file name
+name     output csv file name
+
+Options:
+  -h --help           Show this screen.'''
+
+
 def main():
-    product_file = arg_1()
-    grocery_file = arg_2()
+    args = docopt.docopt(usage)
+    product_file = args['<product>']
+    grocery_file = args['<grocery>']
 
     foodland_df = read_csv(grocery_file)
     product_df = read_csv(product_file)
@@ -40,7 +54,7 @@ def main():
     foodland_name_list = foodland_df['foodland_name'].tolist()  # file 1
     product_name_list = product_df['item_name'].tolist()  # file 2
 
-    output_file = arg_3()
+    output_file = args['<name>']
     match_names(foodland_name_list, product_name_list, foodland_df, output_file)
 
 

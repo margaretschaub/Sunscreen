@@ -1,5 +1,5 @@
 import pandas as pd
-from scrapers.import_export_file import arg_1, arg_2
+import docopt
 
 banned_ingredients = ['oxybenzone', 'octinoxate']
 
@@ -42,9 +42,22 @@ def reef_safe_test(input_csv_path, output_csv_path):
     print("CSV exported")
 
 
+usage = ''' 
+Usage: 
+reef_safe.py [options] <input> <name>
+
+Arguments:
+input    input csv file
+name     output csv file name
+
+Options:
+  -h --help           Show this screen.'''
+
+
 def main():
-    input_path = arg_1()
-    output_path = arg_2()
+    args = docopt.docopt(usage)
+    input_path = args['<input>']
+    output_path = args['<name>']
     reef_safe_test(input_path, output_path)
 
 

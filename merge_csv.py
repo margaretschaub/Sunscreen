@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-from scrapers.import_export_file import arg_1, arg_2
+import docopt
 
 
 def merge_csv_files(file_path, output_file_location):
@@ -22,9 +22,22 @@ def merge_csv_files(file_path, output_file_location):
     df_append.to_csv(output_file_location)
 
 
+usage = ''' 
+Usage: 
+merge_csv.py [options] <directory> <name>
+
+Arguments:
+directory directory with csv files
+name     output csv file name
+
+Options:
+  -h --help           Show this screen.'''
+
+
 def main():
-    input_path = arg_1()
-    output_path = arg_2()
+    args = docopt.docopt(usage)
+    input_path = args['<directory>']
+    output_path = args['<name>']
     merge_csv_files(input_path, output_path)
 
 
