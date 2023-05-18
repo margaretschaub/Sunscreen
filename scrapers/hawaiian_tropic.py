@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup as bs
 import requests
 import re
 import pandas as pd
-from import_export_file import arg_1
+import docopt
 
 
 def generate_links_list():
@@ -43,8 +43,20 @@ def scrape_ingredients(links_list):
     return df
 
 
+usage = ''' 
+Usage: 
+hawaiian_tropic.py [options] <name>
+
+Arguments:
+name     output csv file name
+
+Options:
+  -h --help           Show this screen.'''
+
+
 def main():
-    output_csv_name = arg_1()
+    args = docopt.docopt(usage)
+    output_csv_name = args['<name>']
     links_list = generate_links_list()
     df = scrape_ingredients(links_list)
     df.to_csv(output_csv_name)

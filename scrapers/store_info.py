@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup as bs
 import pandas as pd
 import requests
 import json
-from scrapers.import_export_file import arg_1
+import docopt
 
 
 def get_store_id(url, output_file):
@@ -38,8 +38,20 @@ def get_store_id(url, output_file):
     df.to_csv(output_file)
 
 
+usage = ''' 
+Usage: 
+store_info.py [options] <name>
+
+Arguments:
+name     output csv file name
+
+Options:
+  -h --help           Show this screen.'''
+
+
 def main():
-    output = arg_1()
+    args = docopt.docopt(usage)
+    output = args['<name>']
     get_store_id('https://shop.foodland.com/sm/pickup/rsid/11/results?q=sunscreen', output)
 
 

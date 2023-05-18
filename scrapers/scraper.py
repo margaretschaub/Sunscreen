@@ -3,8 +3,8 @@ import requests
 import json
 import pandas as pd
 
-from scrapers.get_all_links import create_list_of_links
-from scrapers.import_export_file import arg_1
+from get_all_links import create_list_of_links
+import docopt
 
 
 def export_csv(links, output_file):
@@ -65,10 +65,22 @@ def export_csv(links, output_file):
     df.to_csv(output_file)
 
 
+usage = ''' 
+Usage: 
+scraper.py [options] <name>
+
+Arguments:
+name     output csv file name
+
+Options:
+  -h --help           Show this screen.'''
+
+
 def main():
+    args = docopt.docopt(usage)
     list_of_links = \
         create_list_of_links('https://shop.foodland.com/sm/pickup/rsid/50/results?q=sunscreen&page=1&skip=0')
-    output = arg_1()
+    output = args['<name>']
     export_csv(list_of_links, output)
 
 

@@ -32,8 +32,7 @@ def main():
 
     if args['scrape']:
         if brand.lower() == 'sunbum':
-            print("1")
-
+            print("1") #what i want to do is run sunbum.py file
 
 
 if __name__=='__main__':

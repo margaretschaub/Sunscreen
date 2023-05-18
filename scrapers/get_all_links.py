@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup as bs
 import requests
 import json
-from scrapers.foodland_store_id import get_store_id
+from foodland_store_id import get_store_id
 from math import ceil
 
 

@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup as bs
 import requests
 import re
 import pandas as pd
-from import_export_file import arg_1
+import docopt
 
 
 def generate_links_list(url):
@@ -40,9 +40,21 @@ def scrape_ingredients(links_list):
     return df
 
 
+usage = ''' 
+Usage: 
+alba_botanical.py [options] <name>
+
+Arguments:
+name     output csv file name
+
+Options:
+  -h --help           Show this screen.'''
+
+
 def main():
+    args = docopt.docopt(usage)
     initial_url = 'https://www.albabotanica.com/?sfid=4326&_sf_s=sunscreen'
-    output_csv_name = arg_1()
+    output_csv_name = args['<name>']
     links_list = generate_links_list(initial_url)
     df = scrape_ingredients(links_list)
     df.to_csv(output_csv_name)

@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup as bs
 import requests
 import re
 import pandas as pd
-from import_export_file import arg_1
+import docopt
 
 
 def generate_links_list(url):
@@ -42,11 +42,23 @@ def scrape_ingredients(links_list):
     return df
 
 
+usage = ''' 
+Usage: 
+sun_bum.py [options] <name>
+
+Arguments:
+name     output csv file name
+
+Options:
+  -h --help           Show this screen.'''
+
+
 def main():
+    args = docopt.docopt(usage)
     initial_url = 'https://www.sunbum.com/collections/sun-care-all'
     links_list = generate_links_list(initial_url)
     df = scrape_ingredients(links_list)
-    output = arg_1()
+    output = args['<name>']
     df.to_csv(output)
     print('Export to CSV successful')
 
