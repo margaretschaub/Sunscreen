@@ -1,8 +1,12 @@
+# Sunscreen Data Analysis
+
+## Pricing and Availability of Reef-Safe Sunscreen in Hawaii
+
 I used python, MySQL and Tableau to design an interactive Tableau dashboard to investigate sunscreens sold in Hawaii. The purpose of this tool is two-fold: 
 
-Inform consumers of the pricing and availability of sunscreens in each of the reef-safety categories at specific stores
+-Inform consumers of the pricing and availability of sunscreens in each of the reef-safety categories at specific stores
 
-Identify the “best buy” for reef-safe sunscreen
+-Identify the “best buy” for reef-safe sunscreen
 
 The completed dashboard is available for download: Sunscreen Workbook Download.twbx or online at Tableau public: https://public.tableau.com/app/profile/margaret.schaub
 
@@ -15,7 +19,7 @@ I chose to investigate Foodland’s sunscreen inventory since their website offe
 
 CSVs folder contains master CSV files. 
 
-References used for general learning:
+### References used for general learning:
 
 https://medium.com/@stella96joshua/how-to-combine-multiple-csv-files-using-python-for-your-analysis-a88017c6ff9e
 
