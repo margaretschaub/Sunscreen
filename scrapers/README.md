@@ -12,14 +12,16 @@ alba_botanical.py generates csv file for Alba Botanicals products
 
 Run from the command line for each brand:
 
-`Usage: 
+```
+Usage: 
 sun_bum.py [options] <name>
 
 Arguments:
 name     output csv file name
 
 Options:
-  -h --help           Show this screen.'''`
+  -h --help           Show this screen.
+  ```
 
 After running each brand scraper, move CSV files into one directory.
 Example of command line argument:
@@ -31,12 +33,12 @@ store_info.py generates csv file of store details for each csv location
 
 scraper.py generates csv file of foodland inventory
 
-`Usage: 
+```
+Usage: 
 scraper.py [options] <name>
 
 Arguments:
 name     output csv file name
 
 Options:
-  -h --help           Show this screen.'''
-`
+  -h --help           Show this screen.
