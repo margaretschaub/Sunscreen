@@ -40,7 +40,7 @@ sunscreen inventory list and the sunscreen list from brand websites.
 
 I used token set ratio so that, for example,
 "Sun Bum Mineral Lotion Face SPF 30" from Foodland's website and "Mineral SPF 30 Sunscreen Face Lotion– Sun Bum"
-from Sun Bum's website would be matched as the same product. 
+from Sun Bum's website would be matched as the same product.
 
 ```Usage: 
 string_matching.py [options] <product> <grocery> <name>
@@ -53,3 +53,6 @@ name     output csv file name
 Options:
   -h --help           Show this screen.
   ```
+Use csv file output from reef_safe.py as product details csv file
+
+Use csv file output  from scraper.py as grocery inventory csv file
