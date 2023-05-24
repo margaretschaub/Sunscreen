@@ -24,7 +24,6 @@ connect_mysql.py [options] <password> <table> <input>
 
 Arguments:
 password MySQL user password
-name     output csv file name
 table    table name to load into: store, inventory, product, matches
 input    input csv file
 
