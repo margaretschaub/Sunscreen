@@ -32,7 +32,7 @@ def sql_commit(dataframe, sql_statement):
             cursor.execute("USE sunscreen;")
             for i, row in dataframe.iterrows():
                 sql = sql_statement
-                cursor.execute(sql, tuple(row))c
+                cursor.execute(sql, tuple(row))
                 print("Record inserted")
                 conn.commit()
     except Error as e:
