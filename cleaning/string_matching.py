@@ -1,5 +1,6 @@
 from fuzzywuzzy import fuzz, process
 import pandas as pd
+import numpy as np
 import docopt
 
 
@@ -8,7 +9,7 @@ def read_csv(file_name):
     return csv
 
 
-def match_names(file_1, file_2, table, output_file):
+def match_names(file_1, file_2, table):
     mat1 = []
     mat2 = []
     p = []
@@ -27,7 +28,7 @@ def match_names(file_1, file_2, table, output_file):
         mat2.append(",".join(p))
         p = []
     table['matches'] = mat2
-    table.to_csv(output_file)
+    return table
 
 
 usage = ''' 
@@ -51,11 +52,16 @@ def main():
     foodland_df = read_csv(grocery_file)
     product_df = read_csv(product_file)
 
-    foodland_name_list = foodland_df['foodland_name'].tolist()  # file 1
-    product_name_list = product_df['item_name'].tolist()  # file 2
+    foodland_name_list = foodland_df['Name'].tolist()  # file 1
+    product_name_list = product_df['Item Name'].tolist()  # file 2
+
+    fuzz_df = foodland_df[['Brand', 'Name']].copy()
 
     output_file = args['<name>']
-    match_names(foodland_name_list, product_name_list, foodland_df, output_file)
+    temp = match_names(foodland_name_list, product_name_list, fuzz_df)
+    temp = temp.replace(r'^\s*$', np.nan, regex=True)
+    cleaned = temp.dropna(subset=['matches'])
+    cleaned.to_csv(output_file)
 
 
 if __name__ == "__main__":
