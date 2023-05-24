@@ -10,7 +10,6 @@ connect_mysql.py [options] <password> <table> <input>
 
 Arguments:
 password    MySQL user password
-name     output csv file name
 table    table name to load into: store, inventory, product, matches
 input    input csv file
 
@@ -33,7 +32,7 @@ def sql_commit(dataframe, sql_statement):
             cursor.execute("USE sunscreen;")
             for i, row in dataframe.iterrows():
                 sql = sql_statement
-                cursor.execute(sql, tuple(row))
+                cursor.execute(sql, tuple(row))c
                 print("Record inserted")
                 conn.commit()
     except Error as e:
