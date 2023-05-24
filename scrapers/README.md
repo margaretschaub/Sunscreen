@@ -27,6 +27,11 @@ After running each brand scraper, move CSV files into one directory.
 Example of command line argument:
 mkdir products_csv && mv alba.csv ht.csv lhh.csv sunbum.csv $_ 
 
+Note:
+Some of the product information I added by hand. For example, Sol Remedies only has one product,
+so it was more productive to write this information by hand than create a unique scraper. The CSV with additional product information beyond what was obtained by the scrapers is
+available in the CSVs folder. I recommend using reef_safe_determination.csv as a master product list.
+
 ## Scrapers for foodland inventory:
 
 store_info.py generates csv file of store details for each csv location
