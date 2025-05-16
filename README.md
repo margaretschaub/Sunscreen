@@ -11,7 +11,7 @@ I used python, MySQL and Tableau to design an interactive Tableau dashboard to i
 The completed dashboard is available for download: Sunscreen Workbook Download.twbx or online at Tableau public: https://public.tableau.com/app/profile/margaret.schaub
 
 
-Check out more on my website at https://www.macischaub.com/projects/sunscreen-analysis
+Check out more at https://turquoise-week-398.notion.site/Sunscreen-Data-Analysis-Pricing-and-Availability-of-Reef-Safe-Sunscreen-in-Hawaii-1f56649292f580f2b2c0d5b6074fbf49?pvs=141
 
 
 This  repository contains the programs I used to scrape, clean, and load data to make this visualization. 
